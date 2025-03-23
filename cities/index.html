@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, maximum-scale=1, minimum-scale=1">
+  <link rel="icon" href="https://github.com/marcomoroni.png?size=16">
+  <link rel="preload" href="&#x2F;portfolio/assets/fonts/ReadexPro.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="preload" href="&#x2F;portfolio/assets/fonts/OverpassMono-Regular.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="preload" href="&#x2F;portfolio/assets/fonts/OverpassMono-SemiBold.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="&#x2F;portfolio/global.css">
+  <script src="&#x2F;portfolio/script.js"></script>
+  <title>Marco Moroni</title>
+</head>
+
+<body>
+  <div class="cursor hidden">
+    <div class="cursor-icon"></div>
+  </div>
+  <script>
+    const cursor = document.getElementsByClassName('cursor')[0];
+    window.addEventListener('mousemove', (e) => {
+      cursor.classList.remove('hidden');
+      cursor.classList.add('visible');
+      cursor.style.transform = `translate(${e.clientX}px, ${e.clientY}px)`;
+    });
+  </script>
+  <div class="container">
+    
+<a class="home-button" href="&#x2F;portfolio" title="Home"></a>
+<div class="p-e-layout">
+  <div class="nav-dots-container">
+    
+    
+    <a class="nav-dot-container" href="&#x2F;portfolio&#x2F;mxt-website&#x2F;">
+      <div class="nav-dot "></div>
+    </a>
+    
+    <a class="nav-dot-container" href="&#x2F;portfolio&#x2F;turnips&#x2F;">
+      <div class="nav-dot "></div>
+    </a>
+    
+    <a class="nav-dot-container" href="&#x2F;portfolio&#x2F;stonehenge&#x2F;">
+      <div class="nav-dot "></div>
+    </a>
+    
+    <a class="nav-dot-container" href="&#x2F;portfolio&#x2F;mvp&#x2F;">
+      <div class="nav-dot "></div>
+    </a>
+    
+    <a class="nav-dot-container" href="&#x2F;portfolio&#x2F;acnh&#x2F;">
+      <div class="nav-dot "></div>
+    </a>
+    
+    <a class="nav-dot-container" href="&#x2F;portfolio&#x2F;jw&#x2F;">
+      <div class="nav-dot "></div>
+    </a>
+    
+    <a class="nav-dot-container" href="&#x2F;portfolio&#x2F;cities&#x2F;">
+      <div class="nav-dot this"></div>
+    </a>
+    
+    <a class="nav-dot-container" href="&#x2F;portfolio&#x2F;watercolour&#x2F;">
+      <div class="nav-dot "></div>
+    </a>
+    
+    <a class="nav-dot-container" href="&#x2F;portfolio&#x2F;idliketogohome&#x2F;">
+      <div class="nav-dot "></div>
+    </a>
+    
+    <a class="nav-dot-container" href="&#x2F;portfolio&#x2F;tabletop&#x2F;">
+      <div class="nav-dot "></div>
+    </a>
+    
+    <a class="nav-dot-container" href="&#x2F;portfolio&#x2F;raytracer&#x2F;">
+      <div class="nav-dot "></div>
+    </a>
+    
+    <a class="nav-dot-container" href="&#x2F;portfolio&#x2F;clock&#x2F;">
+      <div class="nav-dot "></div>
+    </a>
+    
+    <a class="nav-dot-container" href="&#x2F;portfolio&#x2F;azucena&#x2F;">
+      <div class="nav-dot "></div>
+    </a>
+    
+    <a class="nav-dot-container" href="&#x2F;portfolio&#x2F;lens-vr&#x2F;">
+      <div class="nav-dot "></div>
+    </a>
+    
+    <a class="nav-dot-container" href="&#x2F;portfolio&#x2F;pba&#x2F;">
+      <div class="nav-dot "></div>
+    </a>
+    
+    <a class="nav-dot-container" href="&#x2F;portfolio&#x2F;mv&#x2F;">
+      <div class="nav-dot "></div>
+    </a>
+    
+    <a class="nav-dot-container" href="&#x2F;portfolio&#x2F;pearl&#x2F;">
+      <div class="nav-dot "></div>
+    </a>
+    
+  </div>
+  <div class="p-e-layout-spacer-above-title"></div>
+  
+<div class="p-e-header">
+  <div class="p-e-header-tags-list">
+    
+    <div class="tag">procedural generation</div>
+    
+    <div class="tag">Unity</div>
+    
+    <div class="tag">C#</div>
+    
+  </div>
+  <h1 class="p-e-header-title">A generator of cities following the style of Minna O.</h1>
+</div>
+
+  <div class="p-e-layout-spacer-below-title"></div>
+  <div class="p-e-content" date=" April 2019">
+    <p>This was the Honours Project for my degree in Games Development at Edinburgh Napier University. I studied and classified the different procedural content generation (PCG) techniques and used them to create cities similar to the ones drawn by <a href="https://nokkasili.tumblr.com/">Minna O.</a>:</p>
+<img class="  stretch  " src=minna02.jpg>
+<img class="  stretch  " src=minna03.jpg>
+<img class="  stretch  " src=minna04.jpg>
+<img class="  stretch  " src=minna05.jpg>
+<p>The following are screenshots of the generated artefacts (in the app they would be 3D and interactive). I was extremely lucky to have Minna helping me throughout the project — she made all the assets I needed!</p>
+<img class="full-width can-toggle-full-width cursor-interactable stretch  " src=perspective-01.png>
+<img class="full-width can-toggle-full-width cursor-interactable stretch  " src=perspective-03.png>
+<p>And a 2D one (with an orthographic projection):</p>
+<img class="full-width can-toggle-full-width cursor-interactable stretch  " src=ortho-01.png>
+<p>Needless to say, the final result is way more limited than initially imagined, but I'm extremely happy with what I've learnt. Procedural art is really fascinating!</p>
+<div class="p-e-article-button-container">
+    
+    
+    
+    
+    
+    <a class="p-e-article-button" href="https:&#x2F;&#x2F;marcomoroni.itch.io&#x2F;architect">Try it</a>
+    
+</div>
+<p>If you'd like to learn more about how I did it, keep reading!</p>
+<h2 id="classification">Classification</h2>
+<p>PCG techniques can be divided in two categories:</p>
+<ul>
+<li>additive techniques, where the artefacts are created: goblins and treasures are placed in a map, the loot of a chest is created, etc.;</li>
+<li>substractive techniques, where the artefacts are filtered: the generator (or sometimes a human) needs to evaluate what has been produced and pick the correct or best ones.</li>
+</ul>
+<p>For this project I ended up using only additive techniques. Here's a short summary of the most used additive PCG algorithms:</p>
+<ul>
+<li>Tiles: As the name suggests, when you have a bunch of equally sized tiles you can place them by following certain rules.</li>
+<li>Grammars: These techniques usually consist on a set of rewriting rules. For example, if I have a rule such as <em>A → AB</em> (<em>A</em> will transform into <em>AB</em>), I can iteratively expand a string <em>A</em> in <em>AAB</em>, <em>ABABB</em>, <em>ABBABBB</em>, etc. This is called an L-system, and it was initially developed to describe how plants look. Fractals are also a type of grammar.</li>
+<li>Distribution: Let's say you need to populate a map with trees, and you want them to be at a certain distance from each other, or you need to cluster them more tightly in certain areas. You can use distribution techniques, which give you more control over randomness.</li>
+<li>Parametric: Not really an algorithm by itself, it usually refers to generators that can be controlled through parameters.</li>
+<li>Interpretative: noise (usually Perlin noise) can be interpreted as a height map, which can then be used to create a terrain mesh.</li>
+<li>Simulations: Involve usually advanced algorithms like neural networks and evolutionary ones, which are out of the scope of this project.</li>
+</ul>
+<h2 id="techniques-used">Techniques used</h2>
+<p>For each category I identified its strengths and weaknesses, and then picked the ones that better suited what I wanted to achieve.</p>
+<p>A city is made of stacked 2D layers. Each layer is essentially a list where the items are <em>building</em>, <em>tree</em>, <em>brigde</em>, <em>empty space</em>, etc., and this list is populated using a Markov chain, which is a distribution technique. The idea of a Markov chain is simple: the probability to pick a certain item depends on the preceding item.</p>
+<p>Of that list, the <em>building</em> is a special element. It's a stack of blocks generated by an L-system.</p>
+<p>Finally, you can change the overall generation rules of a city, e.g. the amount of vegetation, by a set of parameter that amend the values of the Markov chain or of the L-system.</p>
+<h2 id="academic-poster">Academic poster</h2>
+<img class=" can-toggle-full-width cursor-interactable   border" src=poster_front.png>
+<img class=" can-toggle-full-width cursor-interactable   border" src=poster_back.png>
+
+  </div>
+  <script>
+    // Add the date to the first `p`.
+    // This script is inside the html because it needs to be executed before the document
+    // is rendered for the first time.
+    const pEContentEl = document.getElementsByClassName('p-e-content')[0];
+    const firstPEl = pEContentEl.querySelector('p');
+    if (firstPEl != null) {
+      firstPEl.innerHTML = '<span class="date-divider">&#92;&#92;&#92;</span>' + firstPEl.innerHTML;
+      firstPEl.prepend(pEContentEl.getAttribute('date'));
+    }
+  </script>
+</div>
+<div class="nav">
+  <div><a class="nav-button" href="&#x2F;portfolio">
+      <div class="nav-button-text">Home</div>
+    </a></div>
+  
+  <div><a class="nav-button with-icon" href="&#x2F;portfolio&#x2F;watercolour&#x2F;">
+      <div class="nav-button-text">Next</div>
+      <div class="nav-button-icon">
+<svg class="right-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <path fill="#AB7C94" d="M 21.1875 9.28125 L 19.78125 10.71875 L 24.0625 15 L 4 15 L 4 17 L 24.0625 17 L 19.78125 21.28125 L 21.1875 22.71875 L 27.90625 16 Z"></path>
+</svg>
+</div>
+    </a></div>
+  
+</div>
+
+  </div>
+</body>
+
+</html>

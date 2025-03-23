@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, maximum-scale=1, minimum-scale=1">
+  <link rel="icon" href="https://github.com/marcomoroni.png?size=16">
+  <link rel="preload" href="&#x2F;portfolio/assets/fonts/ReadexPro.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="preload" href="&#x2F;portfolio/assets/fonts/OverpassMono-Regular.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="preload" href="&#x2F;portfolio/assets/fonts/OverpassMono-SemiBold.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="&#x2F;portfolio/global.css">
+  <script src="&#x2F;portfolio/script.js"></script>
+  <title>Marco Moroni</title>
+</head>
+
+<body>
+  <div class="cursor hidden">
+    <div class="cursor-icon"></div>
+  </div>
+  <script>
+    const cursor = document.getElementsByClassName('cursor')[0];
+    window.addEventListener('mousemove', (e) => {
+      cursor.classList.remove('hidden');
+      cursor.classList.add('visible');
+      cursor.style.transform = `translate(${e.clientX}px, ${e.clientY}px)`;
+    });
+  </script>
+  <div class="container">
+    
+<a class="home-button" href="&#x2F;portfolio" title="Home"></a>
+<div class="p-e-layout">
+  <div class="nav-dots-container">
+    
+    
+    <a class="nav-dot-container" href="&#x2F;portfolio&#x2F;mxt-website&#x2F;">
+      <div class="nav-dot "></div>
+    </a>
+    
+    <a class="nav-dot-container" href="&#x2F;portfolio&#x2F;turnips&#x2F;">
+      <div class="nav-dot "></div>
+    </a>
+    
+    <a class="nav-dot-container" href="&#x2F;portfolio&#x2F;stonehenge&#x2F;">
+      <div class="nav-dot "></div>
+    </a>
+    
+    <a class="nav-dot-container" href="&#x2F;portfolio&#x2F;mvp&#x2F;">
+      <div class="nav-dot "></div>
+    </a>
+    
+    <a class="nav-dot-container" href="&#x2F;portfolio&#x2F;acnh&#x2F;">
+      <div class="nav-dot "></div>
+    </a>
+    
+    <a class="nav-dot-container" href="&#x2F;portfolio&#x2F;jw&#x2F;">
+      <div class="nav-dot "></div>
+    </a>
+    
+    <a class="nav-dot-container" href="&#x2F;portfolio&#x2F;cities&#x2F;">
+      <div class="nav-dot "></div>
+    </a>
+    
+    <a class="nav-dot-container" href="&#x2F;portfolio&#x2F;watercolour&#x2F;">
+      <div class="nav-dot "></div>
+    </a>
+    
+    <a class="nav-dot-container" href="&#x2F;portfolio&#x2F;idliketogohome&#x2F;">
+      <div class="nav-dot "></div>
+    </a>
+    
+    <a class="nav-dot-container" href="&#x2F;portfolio&#x2F;tabletop&#x2F;">
+      <div class="nav-dot "></div>
+    </a>
+    
+    <a class="nav-dot-container" href="&#x2F;portfolio&#x2F;raytracer&#x2F;">
+      <div class="nav-dot "></div>
+    </a>
+    
+    <a class="nav-dot-container" href="&#x2F;portfolio&#x2F;clock&#x2F;">
+      <div class="nav-dot "></div>
+    </a>
+    
+    <a class="nav-dot-container" href="&#x2F;portfolio&#x2F;azucena&#x2F;">
+      <div class="nav-dot "></div>
+    </a>
+    
+    <a class="nav-dot-container" href="&#x2F;portfolio&#x2F;lens-vr&#x2F;">
+      <div class="nav-dot "></div>
+    </a>
+    
+    <a class="nav-dot-container" href="&#x2F;portfolio&#x2F;pba&#x2F;">
+      <div class="nav-dot "></div>
+    </a>
+    
+    <a class="nav-dot-container" href="&#x2F;portfolio&#x2F;mv&#x2F;">
+      <div class="nav-dot "></div>
+    </a>
+    
+    <a class="nav-dot-container" href="&#x2F;portfolio&#x2F;pearl&#x2F;">
+      <div class="nav-dot this"></div>
+    </a>
+    
+  </div>
+  <div class="p-e-layout-spacer-above-title"></div>
+  
+<div class="p-e-header">
+  <div class="p-e-header-tags-list">
+    
+    <div class="tag">Game Jam</div>
+    
+    <div class="tag">Unity</div>
+    
+    <div class="tag">C#</div>
+    
+  </div>
+  <h1 class="p-e-header-title">A tiny puzzle game for the Global Game Jam 2017</h1>
+</div>
+
+  <div class="p-e-layout-spacer-below-title"></div>
+  <div class="p-e-content" date=" January 2017">
+    <img class="  stretch  " src=title01.png>
+<p>The theme for the <a href="https://globalgamejam.org/">Global Game Jam</a> 2017 was <em>waves</em> and because it was my first Game Jam I decided to keep it simple. I participated with a friend and we had a lot of fun!</p>
+<p>Here's how you play it: by pressing the directional arrows you move all the movable pieces on the grid by 1 step in the direction you chose. Your goal is to place all the pearls back to the corresponding shell.</p>
+<p>After the 48 hours we ended up with the two working levels that you can see below.</p>
+<div class="p-e-article-button-container">
+    
+    
+    
+    
+    
+    <a class="p-e-article-button" href="https:&#x2F;&#x2F;github.com&#x2F;MarcoMoroni&#x2F;shell-puzzle">Download &amp; source code</a>
+    
+</div>
+<img class=" can-toggle-full-width cursor-interactable stretch  " src=screen01.png>
+<img class=" can-toggle-full-width cursor-interactable stretch  " src=screen02.png>
+
+  </div>
+  <script>
+    // Add the date to the first `p`.
+    // This script is inside the html because it needs to be executed before the document
+    // is rendered for the first time.
+    const pEContentEl = document.getElementsByClassName('p-e-content')[0];
+    const firstPEl = pEContentEl.querySelector('p');
+    if (firstPEl != null) {
+      firstPEl.innerHTML = '<span class="date-divider">&#92;&#92;&#92;</span>' + firstPEl.innerHTML;
+      firstPEl.prepend(pEContentEl.getAttribute('date'));
+    }
+  </script>
+</div>
+<div class="nav">
+  <div><a class="nav-button" href="&#x2F;portfolio">
+      <div class="nav-button-text">Home</div>
+    </a></div>
+  
+</div>
+
+  </div>
+</body>
+
+</html>

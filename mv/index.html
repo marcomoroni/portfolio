@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, maximum-scale=1, minimum-scale=1">
+  <link rel="icon" href="https://github.com/marcomoroni.png?size=16">
+  <link rel="preload" href="&#x2F;portfolio/assets/fonts/ReadexPro.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="preload" href="&#x2F;portfolio/assets/fonts/OverpassMono-Regular.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="preload" href="&#x2F;portfolio/assets/fonts/OverpassMono-SemiBold.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="&#x2F;portfolio/global.css">
+  <script src="&#x2F;portfolio/script.js"></script>
+  <title>Marco Moroni</title>
+</head>
+
+<body>
+  <div class="cursor hidden">
+    <div class="cursor-icon"></div>
+  </div>
+  <script>
+    const cursor = document.getElementsByClassName('cursor')[0];
+    window.addEventListener('mousemove', (e) => {
+      cursor.classList.remove('hidden');
+      cursor.classList.add('visible');
+      cursor.style.transform = `translate(${e.clientX}px, ${e.clientY}px)`;
+    });
+  </script>
+  <div class="container">
+    
+<a class="home-button" href="&#x2F;portfolio" title="Home"></a>
+<div class="p-e-layout">
+  <div class="nav-dots-container">
+    
+    
+    <a class="nav-dot-container" href="&#x2F;portfolio&#x2F;mxt-website&#x2F;">
+      <div class="nav-dot "></div>
+    </a>
+    
+    <a class="nav-dot-container" href="&#x2F;portfolio&#x2F;turnips&#x2F;">
+      <div class="nav-dot "></div>
+    </a>
+    
+    <a class="nav-dot-container" href="&#x2F;portfolio&#x2F;stonehenge&#x2F;">
+      <div class="nav-dot "></div>
+    </a>
+    
+    <a class="nav-dot-container" href="&#x2F;portfolio&#x2F;mvp&#x2F;">
+      <div class="nav-dot "></div>
+    </a>
+    
+    <a class="nav-dot-container" href="&#x2F;portfolio&#x2F;acnh&#x2F;">
+      <div class="nav-dot "></div>
+    </a>
+    
+    <a class="nav-dot-container" href="&#x2F;portfolio&#x2F;jw&#x2F;">
+      <div class="nav-dot "></div>
+    </a>
+    
+    <a class="nav-dot-container" href="&#x2F;portfolio&#x2F;cities&#x2F;">
+      <div class="nav-dot "></div>
+    </a>
+    
+    <a class="nav-dot-container" href="&#x2F;portfolio&#x2F;watercolour&#x2F;">
+      <div class="nav-dot "></div>
+    </a>
+    
+    <a class="nav-dot-container" href="&#x2F;portfolio&#x2F;idliketogohome&#x2F;">
+      <div class="nav-dot "></div>
+    </a>
+    
+    <a class="nav-dot-container" href="&#x2F;portfolio&#x2F;tabletop&#x2F;">
+      <div class="nav-dot "></div>
+    </a>
+    
+    <a class="nav-dot-container" href="&#x2F;portfolio&#x2F;raytracer&#x2F;">
+      <div class="nav-dot "></div>
+    </a>
+    
+    <a class="nav-dot-container" href="&#x2F;portfolio&#x2F;clock&#x2F;">
+      <div class="nav-dot "></div>
+    </a>
+    
+    <a class="nav-dot-container" href="&#x2F;portfolio&#x2F;azucena&#x2F;">
+      <div class="nav-dot "></div>
+    </a>
+    
+    <a class="nav-dot-container" href="&#x2F;portfolio&#x2F;lens-vr&#x2F;">
+      <div class="nav-dot "></div>
+    </a>
+    
+    <a class="nav-dot-container" href="&#x2F;portfolio&#x2F;pba&#x2F;">
+      <div class="nav-dot "></div>
+    </a>
+    
+    <a class="nav-dot-container" href="&#x2F;portfolio&#x2F;mv&#x2F;">
+      <div class="nav-dot this"></div>
+    </a>
+    
+    <a class="nav-dot-container" href="&#x2F;portfolio&#x2F;pearl&#x2F;">
+      <div class="nav-dot "></div>
+    </a>
+    
+  </div>
+  <div class="p-e-layout-spacer-above-title"></div>
+  
+<div class="p-e-header">
+  <div class="p-e-header-tags-list">
+    
+    <div class="tag">graphics</div>
+    
+    <div class="tag">C++</div>
+    
+  </div>
+  <h1 class="p-e-header-title">Impossible shapes made using OpenGL inspired by Monument Valley</h1>
+</div>
+
+  <div class="p-e-layout-spacer-below-title"></div>
+  <div class="p-e-content" date=" April 2017">
+    <img class="full-width can-toggle-full-width cursor-interactable stretch  " src=animated.gif>
+<p>This is a coursework I've made for a Computer Graphics module. I used <a href="https://www.opengl.org/">OpenGL</a> to recreate a scene that looked like a level from the game <em><a href="https://www.monumentvalleygame.com/">Monument Valley</a></em>:</p>
+<img class="   tall " src=mv_screen.jpg>
+<p>You've probably noticed the impossible geometries: I made them by using a camera with an orthographical projection, therefore you can't perceive depth.</p>
+<p>I used three directional lights facing the three visible surfaces. In this way I have a higher control of the colours I want my scene to have.</p>
+<p>The Phong shader had to be used without the reflection component because reflection is affected by the distance from the camera. Using it would break the illusion of impossible geometries.</p>
+<p>To create the water waves that you can see on the left cube I multiplied two identical normal maps moving in different directions.</p>
+<p>Finally, I worked with frames to allow multiple ones to work at the same time: I can have multiple post-processing effects, such as vignette and inverse colours.</p>
+<div class="p-e-article-button-container">
+    
+    
+    
+    
+    
+    <a class="p-e-article-button" href="https:&#x2F;&#x2F;github.com&#x2F;MarcoMoroni&#x2F;CG_cw2">Source code</a>
+    
+    
+    
+    <a class="p-e-article-button" href="https:&#x2F;&#x2F;github.com&#x2F;MarcoMoroni&#x2F;CG_cw2&#x2F;blob&#x2F;master&#x2F;Report&#x2F;report.pdf">Report</a>
+    
+</div>
+<img class=" can-toggle-full-width cursor-interactable stretch  " src=screen04.png>
+<img class=" can-toggle-full-width cursor-interactable stretch  " src=screen06.png>
+<img class=" can-toggle-full-width cursor-interactable stretch  " src=screen05.png>
+<img class=" can-toggle-full-width cursor-interactable stretch  " src=screen02.png>
+<img class=" can-toggle-full-width cursor-interactable stretch  " src=screen07.png>
+
+  </div>
+  <script>
+    // Add the date to the first `p`.
+    // This script is inside the html because it needs to be executed before the document
+    // is rendered for the first time.
+    const pEContentEl = document.getElementsByClassName('p-e-content')[0];
+    const firstPEl = pEContentEl.querySelector('p');
+    if (firstPEl != null) {
+      firstPEl.innerHTML = '<span class="date-divider">&#92;&#92;&#92;</span>' + firstPEl.innerHTML;
+      firstPEl.prepend(pEContentEl.getAttribute('date'));
+    }
+  </script>
+</div>
+<div class="nav">
+  <div><a class="nav-button" href="&#x2F;portfolio">
+      <div class="nav-button-text">Home</div>
+    </a></div>
+  
+  <div><a class="nav-button with-icon" href="&#x2F;portfolio&#x2F;pearl&#x2F;">
+      <div class="nav-button-text">Next</div>
+      <div class="nav-button-icon">
+<svg class="right-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <path fill="#AB7C94" d="M 21.1875 9.28125 L 19.78125 10.71875 L 24.0625 15 L 4 15 L 4 17 L 24.0625 17 L 19.78125 21.28125 L 21.1875 22.71875 L 27.90625 16 Z"></path>
+</svg>
+</div>
+    </a></div>
+  
+</div>
+
+  </div>
+</body>
+
+</html>

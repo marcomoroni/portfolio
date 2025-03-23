@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, maximum-scale=1, minimum-scale=1">
+  <link rel="icon" href="https://github.com/marcomoroni.png?size=16">
+  <link rel="preload" href="&#x2F;portfolio/assets/fonts/ReadexPro.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="preload" href="&#x2F;portfolio/assets/fonts/OverpassMono-Regular.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="preload" href="&#x2F;portfolio/assets/fonts/OverpassMono-SemiBold.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="&#x2F;portfolio/global.css">
+  <script src="&#x2F;portfolio/script.js"></script>
+  <title>Marco Moroni</title>
+</head>
+
+<body>
+  <div class="cursor hidden">
+    <div class="cursor-icon"></div>
+  </div>
+  <script>
+    const cursor = document.getElementsByClassName('cursor')[0];
+    window.addEventListener('mousemove', (e) => {
+      cursor.classList.remove('hidden');
+      cursor.classList.add('visible');
+      cursor.style.transform = `translate(${e.clientX}px, ${e.clientY}px)`;
+    });
+  </script>
+  <div class="container">
+    
+<a class="home-button" href="&#x2F;portfolio" title="Home"></a>
+<div class="e404-layout">
+    <h1 class="e404-title">404</h1>
+    <img class="e404-seed" src="&#x2F;portfolio/assets/korok_seed.png"/>
+    <p class="e404-text"><em>Yahaha! You found nothing!</em></p>
+</div>
+
+  </div>
+</body>
+
+</html>

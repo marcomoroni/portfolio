@@ -1,0 +1,1066 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, maximum-scale=1, minimum-scale=1">
+  <link rel="icon" href="https://github.com/marcomoroni.png?size=16">
+  <link rel="preload" href="&#x2F;portfolio/assets/fonts/ReadexPro.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="preload" href="&#x2F;portfolio/assets/fonts/OverpassMono-Regular.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="preload" href="&#x2F;portfolio/assets/fonts/OverpassMono-SemiBold.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="&#x2F;portfolio/global.css">
+  <script src="&#x2F;portfolio/script.js"></script>
+  <title>Marco Moroni</title>
+</head>
+
+<body>
+  <div class="cursor hidden">
+    <div class="cursor-icon"></div>
+  </div>
+  <script>
+    const cursor = document.getElementsByClassName('cursor')[0];
+    window.addEventListener('mousemove', (e) => {
+      cursor.classList.remove('hidden');
+      cursor.classList.add('visible');
+      cursor.style.transform = `translate(${e.clientX}px, ${e.clientY}px)`;
+    });
+  </script>
+  <div class="container">
+    
+
+
+<div class="landing-header">
+  <h1 class="ciao">Ciao<span id="typewriter"></span></h1>
+  <p>Programmer &amp; UX/UI designer.</p>
+  <p>Currently working at <a href="https://mxt.co.uk/">MXT</a>. Previously at <a
+      href="https://coatsink.com/">Coatsink</a>.</p>
+  <p>Graduated in Games Development at Edinburgh Napier University.</p>
+  <p>Happy around games, Rust, analytic philosophy, surrealism.</p>
+  <div class="contacts">
+    <div class="user-select-all cursor-interactable">marcomoroni394@gmail.com</div>
+    <div class="contacts-divider">·</div>
+    <div class="no-user-select"><a href="https://github.com/marcomoroni/">GitHub</a></div>
+    <div class="contacts-divider">·</div>
+    <div class="no-user-select"><a href="https://www.linkedin.com/in/m-moroni/">LinkedIn</a></div>
+    <div class="contacts-divider">·</div>
+    <div class="no-user-select"><a href="https://marcomoroni.itch.io/">itch.io</a></div>
+  </div>
+  <p>Here are a few things I've been doing:</p>
+</div>
+<div class="p-e-list">
+  
+  <a class="p-e-l-e-link" href="&#x2F;portfolio&#x2F;mxt-website&#x2F;">
+    
+    
+    
+    
+    
+    
+    
+    
+<!-- https://tympanus.net/codrops/2019/02/05/svg-filter-effects-duotone-images-with-fecomponenttransfer/ -->
+<svg class="defs-only">
+  <filter id="duotone_mxt-website" color-interpolation-filters="sRGB"
+          x="0" y="0" height="100%" width="100%">
+    <!-- Convert it to grayscale. -->
+    <feColorMatrix type="matrix" values="
+        .33 .33 .33 0 0
+        .33 .33 .33 0 0
+        .33 .33 .33 0 0
+        0 0 0 1 0">
+    </feColorMatrix>
+
+    <feComponentTransfer color-interpolation-filters="sRGB">
+      <feFuncR type="gamma" exponent="2.8" amplitude="2.6" offset="0"></feFuncR>
+      <feFuncG type="gamma" exponent="2.8" amplitude="2.6" offset="0"></feFuncG>
+      <feFuncB type="gamma" exponent="2.8" amplitude="2.6" offset="0"></feFuncB>
+    </feComponentTransfer>
+
+    <!-- Map the grayscale result to the gradient map provided in tableValues. -->
+    <feComponentTransfer color-interpolation-filters="sRGB">
+      <feFuncR type="table" tableValues=" 0.9921568627450981  0.9921568627450981  0.9921568627450981  0.9921568627450981  0.9921568627450981  0.9921568627450981  0.9921568627450981  0.9921568627450981   0.9294117647058824 "></feFuncR>
+      <feFuncG type="table" tableValues=" 0.9803921568627451  0.9803921568627451  0.9803921568627451  0.9803921568627451  0.9803921568627451  0.9803921568627451  0.9803921568627451  0.9803921568627451   0.9098039215686274 "></feFuncG>
+      <feFuncB type="table" tableValues=" 0.9686274509803922  0.9686274509803922  0.9686274509803922  0.9686274509803922  0.9686274509803922  0.9686274509803922  0.9686274509803922  0.9686274509803922   0.8901960784313725 "></feFuncB>
+    </feComponentTransfer>
+  </filter>
+</svg>
+
+    <div class="p-e-l-e-image"
+      style="background-image: url(&#x2F;portfolio&#x2F;mxt-website&#x2F;screenshot.png); filter: url(#duotone_mxt-website)">
+    </div>
+    <div class="p-e-l-e-image-overlay"></div>
+    
+    <div class="p-e-l-e-header-container">
+      
+<div class="p-e-header">
+  <div class="p-e-header-tags-list">
+    
+    <div class="tag">Web</div>
+    
+    <div class="tag">Svelte</div>
+    
+    <div class="tag">Three.js</div>
+    
+    <div class="tag">Shaders</div>
+    
+  </div>
+  <h2 class="p-e-header-title">A 3D website for MXT</h2>
+</div>
+
+    </div>
+  </a>
+  
+  <a class="p-e-l-e-link" href="&#x2F;portfolio&#x2F;turnips&#x2F;">
+    
+    
+    
+    
+    
+    
+    
+    
+<!-- https://tympanus.net/codrops/2019/02/05/svg-filter-effects-duotone-images-with-fecomponenttransfer/ -->
+<svg class="defs-only">
+  <filter id="duotone_turnips" color-interpolation-filters="sRGB"
+          x="0" y="0" height="100%" width="100%">
+    <!-- Convert it to grayscale. -->
+    <feColorMatrix type="matrix" values="
+        .33 .33 .33 0 0
+        .33 .33 .33 0 0
+        .33 .33 .33 0 0
+        0 0 0 1 0">
+    </feColorMatrix>
+
+    <feComponentTransfer color-interpolation-filters="sRGB">
+      <feFuncR type="gamma" exponent="2.8" amplitude="2.6" offset="0"></feFuncR>
+      <feFuncG type="gamma" exponent="2.8" amplitude="2.6" offset="0"></feFuncG>
+      <feFuncB type="gamma" exponent="2.8" amplitude="2.6" offset="0"></feFuncB>
+    </feComponentTransfer>
+
+    <!-- Map the grayscale result to the gradient map provided in tableValues. -->
+    <feComponentTransfer color-interpolation-filters="sRGB">
+      <feFuncR type="table" tableValues=" 0.9921568627450981  0.9921568627450981  0.9921568627450981  0.9921568627450981  0.9921568627450981  0.9921568627450981  0.9921568627450981  0.9921568627450981  0.9921568627450981  0.9921568627450981   0.9294117647058824 "></feFuncR>
+      <feFuncG type="table" tableValues=" 0.9803921568627451  0.9803921568627451  0.9803921568627451  0.9803921568627451  0.9803921568627451  0.9803921568627451  0.9803921568627451  0.9803921568627451  0.9803921568627451  0.9803921568627451   0.9098039215686274 "></feFuncG>
+      <feFuncB type="table" tableValues=" 0.9686274509803922  0.9686274509803922  0.9686274509803922  0.9686274509803922  0.9686274509803922  0.9686274509803922  0.9686274509803922  0.9686274509803922  0.9686274509803922  0.9686274509803922   0.8901960784313725 "></feFuncB>
+    </feComponentTransfer>
+  </filter>
+</svg>
+
+    <div class="p-e-l-e-image"
+      style="background-image: url(&#x2F;portfolio&#x2F;turnips&#x2F;t2.png); filter: url(#duotone_turnips)">
+    </div>
+    <div class="p-e-l-e-image-overlay"></div>
+    
+    <div class="p-e-l-e-header-container">
+      
+<div class="p-e-header">
+  <div class="p-e-header-tags-list">
+    
+    <div class="tag">Game Jam</div>
+    
+    <div class="tag">Unity</div>
+    
+    <div class="tag">C#</div>
+    
+    <div class="tag">Shaders</div>
+    
+  </div>
+  <h2 class="p-e-header-title">Turnips</h2>
+</div>
+
+    </div>
+  </a>
+  
+  <a class="p-e-l-e-link" href="&#x2F;portfolio&#x2F;stonehenge&#x2F;">
+    
+    
+    
+    
+    
+    
+    
+    
+<!-- https://tympanus.net/codrops/2019/02/05/svg-filter-effects-duotone-images-with-fecomponenttransfer/ -->
+<svg class="defs-only">
+  <filter id="duotone_stonehenge" color-interpolation-filters="sRGB"
+          x="0" y="0" height="100%" width="100%">
+    <!-- Convert it to grayscale. -->
+    <feColorMatrix type="matrix" values="
+        .33 .33 .33 0 0
+        .33 .33 .33 0 0
+        .33 .33 .33 0 0
+        0 0 0 1 0">
+    </feColorMatrix>
+
+    <feComponentTransfer color-interpolation-filters="sRGB">
+      <feFuncR type="gamma" exponent="2.8" amplitude="2.6" offset="0"></feFuncR>
+      <feFuncG type="gamma" exponent="2.8" amplitude="2.6" offset="0"></feFuncG>
+      <feFuncB type="gamma" exponent="2.8" amplitude="2.6" offset="0"></feFuncB>
+    </feComponentTransfer>
+
+    <!-- Map the grayscale result to the gradient map provided in tableValues. -->
+    <feComponentTransfer color-interpolation-filters="sRGB">
+      <feFuncR type="table" tableValues=" 0.9921568627450981  0.9921568627450981  0.9921568627450981   0.9294117647058824 "></feFuncR>
+      <feFuncG type="table" tableValues=" 0.9803921568627451  0.9803921568627451  0.9803921568627451   0.9098039215686274 "></feFuncG>
+      <feFuncB type="table" tableValues=" 0.9686274509803922  0.9686274509803922  0.9686274509803922   0.8901960784313725 "></feFuncB>
+    </feComponentTransfer>
+  </filter>
+</svg>
+
+    <div class="p-e-l-e-image"
+      style="background-image: url(&#x2F;portfolio&#x2F;stonehenge&#x2F;post_map_high_contrast.png); filter: url(#duotone_stonehenge)">
+    </div>
+    <div class="p-e-l-e-image-overlay"></div>
+    
+    <div class="p-e-l-e-header-container">
+      
+<div class="p-e-header">
+  <div class="p-e-header-tags-list">
+    
+    <div class="tag">XR</div>
+    
+    <div class="tag">UX</div>
+    
+    <div class="tag">UI</div>
+    
+    <div class="tag">Unreal Engine</div>
+    
+    <div class="tag">Shaders</div>
+    
+  </div>
+  <h2 class="p-e-header-title">What if there were no cars passing by Stonehenge?</h2>
+</div>
+
+    </div>
+  </a>
+  
+  <a class="p-e-l-e-link" href="&#x2F;portfolio&#x2F;mvp&#x2F;">
+    
+    <div class="p-e-l-e-header-container">
+      
+<div class="p-e-header">
+  <div class="p-e-header-tags-list">
+    
+    <div class="tag">UX</div>
+    
+    <div class="tag">UI</div>
+    
+    <div class="tag">Unity</div>
+    
+    <div class="tag">C#</div>
+    
+  </div>
+  <h2 class="p-e-header-title">A driving simulator for training traffic officers</h2>
+</div>
+
+    </div>
+  </a>
+  
+  <a class="p-e-l-e-link" href="&#x2F;portfolio&#x2F;acnh&#x2F;">
+    
+    
+    
+    
+    
+    
+    
+    
+<!-- https://tympanus.net/codrops/2019/02/05/svg-filter-effects-duotone-images-with-fecomponenttransfer/ -->
+<svg class="defs-only">
+  <filter id="duotone_acnh" color-interpolation-filters="sRGB"
+          x="0" y="0" height="100%" width="100%">
+    <!-- Convert it to grayscale. -->
+    <feColorMatrix type="matrix" values="
+        .33 .33 .33 0 0
+        .33 .33 .33 0 0
+        .33 .33 .33 0 0
+        0 0 0 1 0">
+    </feColorMatrix>
+
+    <feComponentTransfer color-interpolation-filters="sRGB">
+      <feFuncR type="gamma" exponent="2.8" amplitude="2.6" offset="0"></feFuncR>
+      <feFuncG type="gamma" exponent="2.8" amplitude="2.6" offset="0"></feFuncG>
+      <feFuncB type="gamma" exponent="2.8" amplitude="2.6" offset="0"></feFuncB>
+    </feComponentTransfer>
+
+    <!-- Map the grayscale result to the gradient map provided in tableValues. -->
+    <feComponentTransfer color-interpolation-filters="sRGB">
+      <feFuncR type="table" tableValues=" 0.9294117647058824  0.9294117647058824  0.9294117647058824   0.9921568627450981  0.9921568627450981  0.9921568627450981 "></feFuncR>
+      <feFuncG type="table" tableValues=" 0.9098039215686274  0.9098039215686274  0.9098039215686274   0.9803921568627451  0.9803921568627451  0.9803921568627451 "></feFuncG>
+      <feFuncB type="table" tableValues=" 0.8901960784313725  0.8901960784313725  0.8901960784313725   0.9686274509803922  0.9686274509803922  0.9686274509803922 "></feFuncB>
+    </feComponentTransfer>
+  </filter>
+</svg>
+
+    <div class="p-e-l-e-image"
+      style="background-image: url(&#x2F;portfolio&#x2F;acnh&#x2F;wobble.gif); filter: url(#duotone_acnh)">
+    </div>
+    <div class="p-e-l-e-image-overlay"></div>
+    
+    <div class="p-e-l-e-header-container">
+      
+<div class="p-e-header">
+  <div class="p-e-header-tags-list">
+    
+    <div class="tag">UI</div>
+    
+    <div class="tag">Unity</div>
+    
+    <div class="tag">Shaders</div>
+    
+  </div>
+  <h2 class="p-e-header-title">A short investigation on Animal Crossing: New Horizons UI</h2>
+</div>
+
+    </div>
+  </a>
+  
+  <a class="p-e-l-e-link" href="&#x2F;portfolio&#x2F;jw&#x2F;">
+    
+    
+    
+    
+    
+    
+    
+    
+<!-- https://tympanus.net/codrops/2019/02/05/svg-filter-effects-duotone-images-with-fecomponenttransfer/ -->
+<svg class="defs-only">
+  <filter id="duotone_jw" color-interpolation-filters="sRGB"
+          x="0" y="0" height="100%" width="100%">
+    <!-- Convert it to grayscale. -->
+    <feColorMatrix type="matrix" values="
+        .33 .33 .33 0 0
+        .33 .33 .33 0 0
+        .33 .33 .33 0 0
+        0 0 0 1 0">
+    </feColorMatrix>
+
+    <feComponentTransfer color-interpolation-filters="sRGB">
+      <feFuncR type="gamma" exponent="2.8" amplitude="2.6" offset="0"></feFuncR>
+      <feFuncG type="gamma" exponent="2.8" amplitude="2.6" offset="0"></feFuncG>
+      <feFuncB type="gamma" exponent="2.8" amplitude="2.6" offset="0"></feFuncB>
+    </feComponentTransfer>
+
+    <!-- Map the grayscale result to the gradient map provided in tableValues. -->
+    <feComponentTransfer color-interpolation-filters="sRGB">
+      <feFuncR type="table" tableValues=" 0.9294117647058824  0.9294117647058824   0.9921568627450981  0.9921568627450981  0.9921568627450981  0.9921568627450981 "></feFuncR>
+      <feFuncG type="table" tableValues=" 0.9098039215686274  0.9098039215686274   0.9803921568627451  0.9803921568627451  0.9803921568627451  0.9803921568627451 "></feFuncG>
+      <feFuncB type="table" tableValues=" 0.8901960784313725  0.8901960784313725   0.9686274509803922  0.9686274509803922  0.9686274509803922  0.9686274509803922 "></feFuncB>
+    </feComponentTransfer>
+  </filter>
+</svg>
+
+    <div class="p-e-l-e-image"
+      style="background-image: url(&#x2F;portfolio&#x2F;jw&#x2F;jw.jpg); filter: url(#duotone_jw)">
+    </div>
+    <div class="p-e-l-e-image-overlay"></div>
+    
+    <div class="p-e-l-e-header-container">
+      
+<div class="p-e-header">
+  <div class="p-e-header-tags-list">
+    
+    <div class="tag">published</div>
+    
+    <div class="tag">XR</div>
+    
+    <div class="tag">UI</div>
+    
+    <div class="tag">Unity</div>
+    
+    <div class="tag">C#</div>
+    
+  </div>
+  <h2 class="p-e-header-title">Jurassic World Aftermath</h2>
+</div>
+
+    </div>
+  </a>
+  
+  <a class="p-e-l-e-link" href="&#x2F;portfolio&#x2F;cities&#x2F;">
+    
+    
+    
+    
+    
+    
+    
+    
+<!-- https://tympanus.net/codrops/2019/02/05/svg-filter-effects-duotone-images-with-fecomponenttransfer/ -->
+<svg class="defs-only">
+  <filter id="duotone_cities" color-interpolation-filters="sRGB"
+          x="0" y="0" height="100%" width="100%">
+    <!-- Convert it to grayscale. -->
+    <feColorMatrix type="matrix" values="
+        .33 .33 .33 0 0
+        .33 .33 .33 0 0
+        .33 .33 .33 0 0
+        0 0 0 1 0">
+    </feColorMatrix>
+
+    <feComponentTransfer color-interpolation-filters="sRGB">
+      <feFuncR type="gamma" exponent="2.8" amplitude="2.6" offset="0"></feFuncR>
+      <feFuncG type="gamma" exponent="2.8" amplitude="2.6" offset="0"></feFuncG>
+      <feFuncB type="gamma" exponent="2.8" amplitude="2.6" offset="0"></feFuncB>
+    </feComponentTransfer>
+
+    <!-- Map the grayscale result to the gradient map provided in tableValues. -->
+    <feComponentTransfer color-interpolation-filters="sRGB">
+      <feFuncR type="table" tableValues=" 0.9921568627450981  0.9921568627450981  0.9921568627450981  0.9921568627450981   0.9294117647058824  0.9294117647058824 "></feFuncR>
+      <feFuncG type="table" tableValues=" 0.9803921568627451  0.9803921568627451  0.9803921568627451  0.9803921568627451   0.9098039215686274  0.9098039215686274 "></feFuncG>
+      <feFuncB type="table" tableValues=" 0.9686274509803922  0.9686274509803922  0.9686274509803922  0.9686274509803922   0.8901960784313725  0.8901960784313725 "></feFuncB>
+    </feComponentTransfer>
+  </filter>
+</svg>
+
+    <div class="p-e-l-e-image"
+      style="background-image: url(&#x2F;portfolio&#x2F;cities&#x2F;ortho-02.png); filter: url(#duotone_cities)">
+    </div>
+    <div class="p-e-l-e-image-overlay"></div>
+    
+    <div class="p-e-l-e-header-container">
+      
+<div class="p-e-header">
+  <div class="p-e-header-tags-list">
+    
+    <div class="tag">procedural generation</div>
+    
+    <div class="tag">Unity</div>
+    
+    <div class="tag">C#</div>
+    
+  </div>
+  <h2 class="p-e-header-title">A generator of cities following the style of Minna O.</h2>
+</div>
+
+    </div>
+  </a>
+  
+  <a class="p-e-l-e-link" href="&#x2F;portfolio&#x2F;watercolour&#x2F;">
+    
+    
+    
+    
+    
+    
+    
+    
+<!-- https://tympanus.net/codrops/2019/02/05/svg-filter-effects-duotone-images-with-fecomponenttransfer/ -->
+<svg class="defs-only">
+  <filter id="duotone_watercolour" color-interpolation-filters="sRGB"
+          x="0" y="0" height="100%" width="100%">
+    <!-- Convert it to grayscale. -->
+    <feColorMatrix type="matrix" values="
+        .33 .33 .33 0 0
+        .33 .33 .33 0 0
+        .33 .33 .33 0 0
+        0 0 0 1 0">
+    </feColorMatrix>
+
+    <feComponentTransfer color-interpolation-filters="sRGB">
+      <feFuncR type="gamma" exponent="2.8" amplitude="2.6" offset="0"></feFuncR>
+      <feFuncG type="gamma" exponent="2.8" amplitude="2.6" offset="0"></feFuncG>
+      <feFuncB type="gamma" exponent="2.8" amplitude="2.6" offset="0"></feFuncB>
+    </feComponentTransfer>
+
+    <!-- Map the grayscale result to the gradient map provided in tableValues. -->
+    <feComponentTransfer color-interpolation-filters="sRGB">
+      <feFuncR type="table" tableValues=" 0.9294117647058824  0.9294117647058824  0.9294117647058824   0.9921568627450981  0.9921568627450981  0.9921568627450981 "></feFuncR>
+      <feFuncG type="table" tableValues=" 0.9098039215686274  0.9098039215686274  0.9098039215686274   0.9803921568627451  0.9803921568627451  0.9803921568627451 "></feFuncG>
+      <feFuncB type="table" tableValues=" 0.8901960784313725  0.8901960784313725  0.8901960784313725   0.9686274509803922  0.9686274509803922  0.9686274509803922 "></feFuncB>
+    </feComponentTransfer>
+  </filter>
+</svg>
+
+    <div class="p-e-l-e-image"
+      style="background-image: url(&#x2F;portfolio&#x2F;watercolour&#x2F;textures.gif); filter: url(#duotone_watercolour)">
+    </div>
+    <div class="p-e-l-e-image-overlay"></div>
+    
+    <div class="p-e-l-e-header-container">
+      
+<div class="p-e-header">
+  <div class="p-e-header-tags-list">
+    
+    <div class="tag">procedural generation</div>
+    
+  </div>
+  <h2 class="p-e-header-title">Procedurally generated watercolour textures</h2>
+</div>
+
+    </div>
+  </a>
+  
+  <a class="p-e-l-e-link" href="&#x2F;portfolio&#x2F;idliketogohome&#x2F;">
+    
+    
+    
+    
+    
+    
+    
+    
+<!-- https://tympanus.net/codrops/2019/02/05/svg-filter-effects-duotone-images-with-fecomponenttransfer/ -->
+<svg class="defs-only">
+  <filter id="duotone_idliketogohome" color-interpolation-filters="sRGB"
+          x="0" y="0" height="100%" width="100%">
+    <!-- Convert it to grayscale. -->
+    <feColorMatrix type="matrix" values="
+        .33 .33 .33 0 0
+        .33 .33 .33 0 0
+        .33 .33 .33 0 0
+        0 0 0 1 0">
+    </feColorMatrix>
+
+    <feComponentTransfer color-interpolation-filters="sRGB">
+      <feFuncR type="gamma" exponent="2.8" amplitude="2.6" offset="0"></feFuncR>
+      <feFuncG type="gamma" exponent="2.8" amplitude="2.6" offset="0"></feFuncG>
+      <feFuncB type="gamma" exponent="2.8" amplitude="2.6" offset="0"></feFuncB>
+    </feComponentTransfer>
+
+    <!-- Map the grayscale result to the gradient map provided in tableValues. -->
+    <feComponentTransfer color-interpolation-filters="sRGB">
+      <feFuncR type="table" tableValues=" 0.9294117647058824  0.9294117647058824   0.9921568627450981  0.9921568627450981  0.9921568627450981  0.9921568627450981 "></feFuncR>
+      <feFuncG type="table" tableValues=" 0.9098039215686274  0.9098039215686274   0.9803921568627451  0.9803921568627451  0.9803921568627451  0.9803921568627451 "></feFuncG>
+      <feFuncB type="table" tableValues=" 0.8901960784313725  0.8901960784313725   0.9686274509803922  0.9686274509803922  0.9686274509803922  0.9686274509803922 "></feFuncB>
+    </feComponentTransfer>
+  </filter>
+</svg>
+
+    <div class="p-e-l-e-image"
+      style="background-image: url(&#x2F;portfolio&#x2F;idliketogohome&#x2F;h1.png); filter: url(#duotone_idliketogohome)">
+    </div>
+    <div class="p-e-l-e-image-overlay"></div>
+    
+    <div class="p-e-l-e-header-container">
+      
+<div class="p-e-header">
+  <div class="p-e-header-tags-list">
+    
+    <div class="tag">Game Jam</div>
+    
+    <div class="tag">Unity</div>
+    
+    <div class="tag">C#</div>
+    
+  </div>
+  <h2 class="p-e-header-title">I&#x27;d like to go home</h2>
+</div>
+
+    </div>
+  </a>
+  
+  <a class="p-e-l-e-link" href="&#x2F;portfolio&#x2F;tabletop&#x2F;">
+    
+    
+    
+    
+    
+    
+    
+    
+<!-- https://tympanus.net/codrops/2019/02/05/svg-filter-effects-duotone-images-with-fecomponenttransfer/ -->
+<svg class="defs-only">
+  <filter id="duotone_tabletop" color-interpolation-filters="sRGB"
+          x="0" y="0" height="100%" width="100%">
+    <!-- Convert it to grayscale. -->
+    <feColorMatrix type="matrix" values="
+        .33 .33 .33 0 0
+        .33 .33 .33 0 0
+        .33 .33 .33 0 0
+        0 0 0 1 0">
+    </feColorMatrix>
+
+    <feComponentTransfer color-interpolation-filters="sRGB">
+      <feFuncR type="gamma" exponent="2.8" amplitude="2.6" offset="0"></feFuncR>
+      <feFuncG type="gamma" exponent="2.8" amplitude="2.6" offset="0"></feFuncG>
+      <feFuncB type="gamma" exponent="2.8" amplitude="2.6" offset="0"></feFuncB>
+    </feComponentTransfer>
+
+    <!-- Map the grayscale result to the gradient map provided in tableValues. -->
+    <feComponentTransfer color-interpolation-filters="sRGB">
+      <feFuncR type="table" tableValues=" 0.9294117647058824  0.9294117647058824  0.9294117647058824  0.9294117647058824  0.9294117647058824   0.9921568627450981 "></feFuncR>
+      <feFuncG type="table" tableValues=" 0.9098039215686274  0.9098039215686274  0.9098039215686274  0.9098039215686274  0.9098039215686274   0.9803921568627451 "></feFuncG>
+      <feFuncB type="table" tableValues=" 0.8901960784313725  0.8901960784313725  0.8901960784313725  0.8901960784313725  0.8901960784313725   0.9686274509803922 "></feFuncB>
+    </feComponentTransfer>
+  </filter>
+</svg>
+
+    <div class="p-e-l-e-image"
+      style="background-image: url(&#x2F;portfolio&#x2F;tabletop&#x2F;engine01.gif); filter: url(#duotone_tabletop)">
+    </div>
+    <div class="p-e-l-e-image-overlay"></div>
+    
+    <div class="p-e-l-e-header-container">
+      
+<div class="p-e-header">
+  <div class="p-e-header-tags-list">
+    
+    <div class="tag">Unity</div>
+    
+    <div class="tag">C#</div>
+    
+  </div>
+  <h2 class="p-e-header-title">A tabletop engine with fancy tools for developers</h2>
+</div>
+
+    </div>
+  </a>
+  
+  <a class="p-e-l-e-link" href="&#x2F;portfolio&#x2F;raytracer&#x2F;">
+    
+    
+    
+    
+    
+    
+    
+    
+<!-- https://tympanus.net/codrops/2019/02/05/svg-filter-effects-duotone-images-with-fecomponenttransfer/ -->
+<svg class="defs-only">
+  <filter id="duotone_raytracer" color-interpolation-filters="sRGB"
+          x="0" y="0" height="100%" width="100%">
+    <!-- Convert it to grayscale. -->
+    <feColorMatrix type="matrix" values="
+        .33 .33 .33 0 0
+        .33 .33 .33 0 0
+        .33 .33 .33 0 0
+        0 0 0 1 0">
+    </feColorMatrix>
+
+    <feComponentTransfer color-interpolation-filters="sRGB">
+      <feFuncR type="gamma" exponent="2.8" amplitude="2.6" offset="0"></feFuncR>
+      <feFuncG type="gamma" exponent="2.8" amplitude="2.6" offset="0"></feFuncG>
+      <feFuncB type="gamma" exponent="2.8" amplitude="2.6" offset="0"></feFuncB>
+    </feComponentTransfer>
+
+    <!-- Map the grayscale result to the gradient map provided in tableValues. -->
+    <feComponentTransfer color-interpolation-filters="sRGB">
+      <feFuncR type="table" tableValues=" 0.9294117647058824  0.9294117647058824  0.9294117647058824  0.9294117647058824   0.9921568627450981  0.9921568627450981 "></feFuncR>
+      <feFuncG type="table" tableValues=" 0.9098039215686274  0.9098039215686274  0.9098039215686274  0.9098039215686274   0.9803921568627451  0.9803921568627451 "></feFuncG>
+      <feFuncB type="table" tableValues=" 0.8901960784313725  0.8901960784313725  0.8901960784313725  0.8901960784313725   0.9686274509803922  0.9686274509803922 "></feFuncB>
+    </feComponentTransfer>
+  </filter>
+</svg>
+
+    <div class="p-e-l-e-image"
+      style="background-image: url(&#x2F;portfolio&#x2F;raytracer&#x2F;ray01.jpg); filter: url(#duotone_raytracer)">
+    </div>
+    <div class="p-e-l-e-image-overlay"></div>
+    
+    <div class="p-e-l-e-header-container">
+      
+<div class="p-e-header">
+  <div class="p-e-header-tags-list">
+    
+    <div class="tag">graphics</div>
+    
+    <div class="tag">C++</div>
+    
+  </div>
+  <h2 class="p-e-header-title">An investigation on ray tracer parallelization</h2>
+</div>
+
+    </div>
+  </a>
+  
+  <a class="p-e-l-e-link" href="&#x2F;portfolio&#x2F;clock&#x2F;">
+    
+    
+    
+    
+    
+    
+    
+    
+<!-- https://tympanus.net/codrops/2019/02/05/svg-filter-effects-duotone-images-with-fecomponenttransfer/ -->
+<svg class="defs-only">
+  <filter id="duotone_clock" color-interpolation-filters="sRGB"
+          x="0" y="0" height="100%" width="100%">
+    <!-- Convert it to grayscale. -->
+    <feColorMatrix type="matrix" values="
+        .33 .33 .33 0 0
+        .33 .33 .33 0 0
+        .33 .33 .33 0 0
+        0 0 0 1 0">
+    </feColorMatrix>
+
+    <feComponentTransfer color-interpolation-filters="sRGB">
+      <feFuncR type="gamma" exponent="2.8" amplitude="2.6" offset="0"></feFuncR>
+      <feFuncG type="gamma" exponent="2.8" amplitude="2.6" offset="0"></feFuncG>
+      <feFuncB type="gamma" exponent="2.8" amplitude="2.6" offset="0"></feFuncB>
+    </feComponentTransfer>
+
+    <!-- Map the grayscale result to the gradient map provided in tableValues. -->
+    <feComponentTransfer color-interpolation-filters="sRGB">
+      <feFuncR type="table" tableValues=" 0.9921568627450981  0.9921568627450981  0.9921568627450981   0.9294117647058824  0.9294117647058824  0.9294117647058824 "></feFuncR>
+      <feFuncG type="table" tableValues=" 0.9803921568627451  0.9803921568627451  0.9803921568627451   0.9098039215686274  0.9098039215686274  0.9098039215686274 "></feFuncG>
+      <feFuncB type="table" tableValues=" 0.9686274509803922  0.9686274509803922  0.9686274509803922   0.8901960784313725  0.8901960784313725  0.8901960784313725 "></feFuncB>
+    </feComponentTransfer>
+  </filter>
+</svg>
+
+    <div class="p-e-l-e-image"
+      style="background-image: url(&#x2F;portfolio&#x2F;clock&#x2F;clock-sand.png); filter: url(#duotone_clock)">
+    </div>
+    <div class="p-e-l-e-image-overlay"></div>
+    
+    <div class="p-e-l-e-header-container">
+      
+<div class="p-e-header">
+  <div class="p-e-header-tags-list">
+    
+    <div class="tag">Android</div>
+    
+  </div>
+  <h2 class="p-e-header-title">An excessively complicated clock</h2>
+</div>
+
+    </div>
+  </a>
+  
+  <a class="p-e-l-e-link" href="&#x2F;portfolio&#x2F;azucena&#x2F;">
+    
+    
+    
+    
+    
+    
+    
+    
+<!-- https://tympanus.net/codrops/2019/02/05/svg-filter-effects-duotone-images-with-fecomponenttransfer/ -->
+<svg class="defs-only">
+  <filter id="duotone_azucena" color-interpolation-filters="sRGB"
+          x="0" y="0" height="100%" width="100%">
+    <!-- Convert it to grayscale. -->
+    <feColorMatrix type="matrix" values="
+        .33 .33 .33 0 0
+        .33 .33 .33 0 0
+        .33 .33 .33 0 0
+        0 0 0 1 0">
+    </feColorMatrix>
+
+    <feComponentTransfer color-interpolation-filters="sRGB">
+      <feFuncR type="gamma" exponent="2.8" amplitude="2.6" offset="0"></feFuncR>
+      <feFuncG type="gamma" exponent="2.8" amplitude="2.6" offset="0"></feFuncG>
+      <feFuncB type="gamma" exponent="2.8" amplitude="2.6" offset="0"></feFuncB>
+    </feComponentTransfer>
+
+    <!-- Map the grayscale result to the gradient map provided in tableValues. -->
+    <feComponentTransfer color-interpolation-filters="sRGB">
+      <feFuncR type="table" tableValues=" 0.9294117647058824  0.9294117647058824   0.9921568627450981  0.9921568627450981  0.9921568627450981  0.9921568627450981 "></feFuncR>
+      <feFuncG type="table" tableValues=" 0.9098039215686274  0.9098039215686274   0.9803921568627451  0.9803921568627451  0.9803921568627451  0.9803921568627451 "></feFuncG>
+      <feFuncB type="table" tableValues=" 0.8901960784313725  0.8901960784313725   0.9686274509803922  0.9686274509803922  0.9686274509803922  0.9686274509803922 "></feFuncB>
+    </feComponentTransfer>
+  </filter>
+</svg>
+
+    <div class="p-e-l-e-image"
+      style="background-image: url(&#x2F;portfolio&#x2F;azucena&#x2F;capture_02.png); filter: url(#duotone_azucena)">
+    </div>
+    <div class="p-e-l-e-image-overlay"></div>
+    
+    <div class="p-e-l-e-header-container">
+      
+<div class="p-e-header">
+  <div class="p-e-header-tags-list">
+    
+    <div class="tag">graphics</div>
+    
+    <div class="tag">physics</div>
+    
+    <div class="tag">C++</div>
+    
+  </div>
+  <h2 class="p-e-header-title">Azucena: a game built on a custom C++ engine</h2>
+</div>
+
+    </div>
+  </a>
+  
+  <a class="p-e-l-e-link" href="&#x2F;portfolio&#x2F;lens-vr&#x2F;">
+    
+    
+    
+    
+    
+    
+    
+    
+<!-- https://tympanus.net/codrops/2019/02/05/svg-filter-effects-duotone-images-with-fecomponenttransfer/ -->
+<svg class="defs-only">
+  <filter id="duotone_lens-vr" color-interpolation-filters="sRGB"
+          x="0" y="0" height="100%" width="100%">
+    <!-- Convert it to grayscale. -->
+    <feColorMatrix type="matrix" values="
+        .33 .33 .33 0 0
+        .33 .33 .33 0 0
+        .33 .33 .33 0 0
+        0 0 0 1 0">
+    </feColorMatrix>
+
+    <feComponentTransfer color-interpolation-filters="sRGB">
+      <feFuncR type="gamma" exponent="2.8" amplitude="2.6" offset="0"></feFuncR>
+      <feFuncG type="gamma" exponent="2.8" amplitude="2.6" offset="0"></feFuncG>
+      <feFuncB type="gamma" exponent="2.8" amplitude="2.6" offset="0"></feFuncB>
+    </feComponentTransfer>
+
+    <!-- Map the grayscale result to the gradient map provided in tableValues. -->
+    <feComponentTransfer color-interpolation-filters="sRGB">
+      <feFuncR type="table" tableValues=" 0.9921568627450981  0.9921568627450981  0.9921568627450981  0.9921568627450981   0.9294117647058824  0.9294117647058824 "></feFuncR>
+      <feFuncG type="table" tableValues=" 0.9803921568627451  0.9803921568627451  0.9803921568627451  0.9803921568627451   0.9098039215686274  0.9098039215686274 "></feFuncG>
+      <feFuncB type="table" tableValues=" 0.9686274509803922  0.9686274509803922  0.9686274509803922  0.9686274509803922   0.8901960784313725  0.8901960784313725 "></feFuncB>
+    </feComponentTransfer>
+  </filter>
+</svg>
+
+    <div class="p-e-l-e-image"
+      style="background-image: url(&#x2F;portfolio&#x2F;lens-vr&#x2F;capture06.png); filter: url(#duotone_lens-vr)">
+    </div>
+    <div class="p-e-l-e-image-overlay"></div>
+    
+    <div class="p-e-l-e-header-container">
+      
+<div class="p-e-header">
+  <div class="p-e-header-tags-list">
+    
+    <div class="tag">Unity</div>
+    
+    <div class="tag">XR</div>
+    
+    <div class="tag">data visualisation</div>
+    
+    <div class="tag">C#</div>
+    
+  </div>
+  <h2 class="p-e-header-title">A data visualisation tool in VR for Disney Research</h2>
+</div>
+
+    </div>
+  </a>
+  
+  <a class="p-e-l-e-link" href="&#x2F;portfolio&#x2F;pba&#x2F;">
+    
+    
+    
+    
+    
+    
+    
+    
+<!-- https://tympanus.net/codrops/2019/02/05/svg-filter-effects-duotone-images-with-fecomponenttransfer/ -->
+<svg class="defs-only">
+  <filter id="duotone_pba" color-interpolation-filters="sRGB"
+          x="0" y="0" height="100%" width="100%">
+    <!-- Convert it to grayscale. -->
+    <feColorMatrix type="matrix" values="
+        .33 .33 .33 0 0
+        .33 .33 .33 0 0
+        .33 .33 .33 0 0
+        0 0 0 1 0">
+    </feColorMatrix>
+
+    <feComponentTransfer color-interpolation-filters="sRGB">
+      <feFuncR type="gamma" exponent="2.8" amplitude="2.6" offset="0"></feFuncR>
+      <feFuncG type="gamma" exponent="2.8" amplitude="2.6" offset="0"></feFuncG>
+      <feFuncB type="gamma" exponent="2.8" amplitude="2.6" offset="0"></feFuncB>
+    </feComponentTransfer>
+
+    <!-- Map the grayscale result to the gradient map provided in tableValues. -->
+    <feComponentTransfer color-interpolation-filters="sRGB">
+      <feFuncR type="table" tableValues=" 0.9921568627450981  0.9921568627450981  0.9921568627450981   0.9294117647058824  0.9294117647058824  0.9294117647058824 "></feFuncR>
+      <feFuncG type="table" tableValues=" 0.9803921568627451  0.9803921568627451  0.9803921568627451   0.9098039215686274  0.9098039215686274  0.9098039215686274 "></feFuncG>
+      <feFuncB type="table" tableValues=" 0.9686274509803922  0.9686274509803922  0.9686274509803922   0.8901960784313725  0.8901960784313725  0.8901960784313725 "></feFuncB>
+    </feComponentTransfer>
+  </filter>
+</svg>
+
+    <div class="p-e-l-e-image"
+      style="background-image: url(&#x2F;portfolio&#x2F;pba&#x2F;point.gif); filter: url(#duotone_pba)">
+    </div>
+    <div class="p-e-l-e-image-overlay"></div>
+    
+    <div class="p-e-l-e-header-container">
+      
+<div class="p-e-header">
+  <div class="p-e-header-tags-list">
+    
+    <div class="tag">physics</div>
+    
+    <div class="tag">C++</div>
+    
+  </div>
+  <h2 class="p-e-header-title">Some physics-based animations with particles and rigid bodies</h2>
+</div>
+
+    </div>
+  </a>
+  
+  <a class="p-e-l-e-link" href="&#x2F;portfolio&#x2F;mv&#x2F;">
+    
+    
+    
+    
+    
+    
+    
+    
+<!-- https://tympanus.net/codrops/2019/02/05/svg-filter-effects-duotone-images-with-fecomponenttransfer/ -->
+<svg class="defs-only">
+  <filter id="duotone_mv" color-interpolation-filters="sRGB"
+          x="0" y="0" height="100%" width="100%">
+    <!-- Convert it to grayscale. -->
+    <feColorMatrix type="matrix" values="
+        .33 .33 .33 0 0
+        .33 .33 .33 0 0
+        .33 .33 .33 0 0
+        0 0 0 1 0">
+    </feColorMatrix>
+
+    <feComponentTransfer color-interpolation-filters="sRGB">
+      <feFuncR type="gamma" exponent="2.8" amplitude="2.6" offset="0"></feFuncR>
+      <feFuncG type="gamma" exponent="2.8" amplitude="2.6" offset="0"></feFuncG>
+      <feFuncB type="gamma" exponent="2.8" amplitude="2.6" offset="0"></feFuncB>
+    </feComponentTransfer>
+
+    <!-- Map the grayscale result to the gradient map provided in tableValues. -->
+    <feComponentTransfer color-interpolation-filters="sRGB">
+      <feFuncR type="table" tableValues=" 0.9921568627450981  0.9921568627450981  0.9921568627450981  0.9921568627450981  0.9921568627450981   0.9294117647058824 "></feFuncR>
+      <feFuncG type="table" tableValues=" 0.9803921568627451  0.9803921568627451  0.9803921568627451  0.9803921568627451  0.9803921568627451   0.9098039215686274 "></feFuncG>
+      <feFuncB type="table" tableValues=" 0.9686274509803922  0.9686274509803922  0.9686274509803922  0.9686274509803922  0.9686274509803922   0.8901960784313725 "></feFuncB>
+    </feComponentTransfer>
+  </filter>
+</svg>
+
+    <div class="p-e-l-e-image"
+      style="background-image: url(&#x2F;portfolio&#x2F;mv&#x2F;screen07.png); filter: url(#duotone_mv)">
+    </div>
+    <div class="p-e-l-e-image-overlay"></div>
+    
+    <div class="p-e-l-e-header-container">
+      
+<div class="p-e-header">
+  <div class="p-e-header-tags-list">
+    
+    <div class="tag">graphics</div>
+    
+    <div class="tag">C++</div>
+    
+  </div>
+  <h2 class="p-e-header-title">Impossible shapes made using OpenGL inspired by Monument Valley</h2>
+</div>
+
+    </div>
+  </a>
+  
+  <a class="p-e-l-e-link" href="&#x2F;portfolio&#x2F;pearl&#x2F;">
+    
+    
+    
+    
+    
+    
+    
+    
+<!-- https://tympanus.net/codrops/2019/02/05/svg-filter-effects-duotone-images-with-fecomponenttransfer/ -->
+<svg class="defs-only">
+  <filter id="duotone_pearl" color-interpolation-filters="sRGB"
+          x="0" y="0" height="100%" width="100%">
+    <!-- Convert it to grayscale. -->
+    <feColorMatrix type="matrix" values="
+        .33 .33 .33 0 0
+        .33 .33 .33 0 0
+        .33 .33 .33 0 0
+        0 0 0 1 0">
+    </feColorMatrix>
+
+    <feComponentTransfer color-interpolation-filters="sRGB">
+      <feFuncR type="gamma" exponent="2.8" amplitude="2.6" offset="0"></feFuncR>
+      <feFuncG type="gamma" exponent="2.8" amplitude="2.6" offset="0"></feFuncG>
+      <feFuncB type="gamma" exponent="2.8" amplitude="2.6" offset="0"></feFuncB>
+    </feComponentTransfer>
+
+    <!-- Map the grayscale result to the gradient map provided in tableValues. -->
+    <feComponentTransfer color-interpolation-filters="sRGB">
+      <feFuncR type="table" tableValues=" 0.9921568627450981  0.9921568627450981  0.9921568627450981   0.9294117647058824  0.9294117647058824  0.9294117647058824 "></feFuncR>
+      <feFuncG type="table" tableValues=" 0.9803921568627451  0.9803921568627451  0.9803921568627451   0.9098039215686274  0.9098039215686274  0.9098039215686274 "></feFuncG>
+      <feFuncB type="table" tableValues=" 0.9686274509803922  0.9686274509803922  0.9686274509803922   0.8901960784313725  0.8901960784313725  0.8901960784313725 "></feFuncB>
+    </feComponentTransfer>
+  </filter>
+</svg>
+
+    <div class="p-e-l-e-image"
+      style="background-image: url(&#x2F;portfolio&#x2F;pearl&#x2F;screen02.png); filter: url(#duotone_pearl)">
+    </div>
+    <div class="p-e-l-e-image-overlay"></div>
+    
+    <div class="p-e-l-e-header-container">
+      
+<div class="p-e-header">
+  <div class="p-e-header-tags-list">
+    
+    <div class="tag">Game Jam</div>
+    
+    <div class="tag">Unity</div>
+    
+    <div class="tag">C#</div>
+    
+  </div>
+  <h2 class="p-e-header-title">A tiny puzzle game for the Global Game Jam 2017</h2>
+</div>
+
+    </div>
+  </a>
+  
+  
+  <div class="p-e-adjustment"></div>
+  
+  <div class="p-e-adjustment"></div>
+  
+  <div class="p-e-adjustment"></div>
+  
+  <div class="p-e-adjustment"></div>
+  
+  <div class="p-e-adjustment"></div>
+  
+  <div class="p-e-adjustment"></div>
+  
+  <div class="p-e-adjustment"></div>
+  
+  <div class="p-e-adjustment"></div>
+  
+  <div class="p-e-adjustment"></div>
+  
+  <div class="p-e-adjustment"></div>
+  
+  <div class="p-e-adjustment"></div>
+  
+  <div class="p-e-adjustment"></div>
+  
+  <div class="p-e-adjustment"></div>
+  
+  <div class="p-e-adjustment"></div>
+  
+  <div class="p-e-adjustment"></div>
+  
+  <div class="p-e-adjustment"></div>
+  
+  <div class="p-e-adjustment"></div>
+  
+</div>
+<div class="nav home">
+  <div><a class="nav-button filled with-icon" href="&#x2F;portfolio&#x2F;mxt-website&#x2F;">
+      <div class="nav-button-text">Start from the first one</div>
+      <div class="nav-button-icon">
+<svg class="right-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <path fill="#AB7C94" d="M 21.1875 9.28125 L 19.78125 10.71875 L 24.0625 15 L 4 15 L 4 17 L 24.0625 17 L 19.78125 21.28125 L 21.1875 22.71875 L 27.90625 16 Z"></path>
+</svg>
+</div>
+    </a></div>
+</div>
+
+  </div>
+</body>
+
+</html>

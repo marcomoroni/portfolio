@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, maximum-scale=1, minimum-scale=1">
+  <link rel="icon" href="https://github.com/marcomoroni.png?size=16">
+  <link rel="preload" href="&#x2F;portfolio/assets/fonts/ReadexPro.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="preload" href="&#x2F;portfolio/assets/fonts/OverpassMono-Regular.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="preload" href="&#x2F;portfolio/assets/fonts/OverpassMono-SemiBold.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="&#x2F;portfolio/global.css">
+  <script src="&#x2F;portfolio/script.js"></script>
+  <title>Marco Moroni</title>
+</head>
+
+<body>
+  <div class="cursor hidden">
+    <div class="cursor-icon"></div>
+  </div>
+  <script>
+    const cursor = document.getElementsByClassName('cursor')[0];
+    window.addEventListener('mousemove', (e) => {
+      cursor.classList.remove('hidden');
+      cursor.classList.add('visible');
+      cursor.style.transform = `translate(${e.clientX}px, ${e.clientY}px)`;
+    });
+  </script>
+  <div class="container">
+    
+<a class="home-button" href="&#x2F;portfolio" title="Home"></a>
+<div class="p-e-layout">
+  <div class="nav-dots-container">
+    
+    
+    <a class="nav-dot-container" href="&#x2F;portfolio&#x2F;mxt-website&#x2F;">
+      <div class="nav-dot "></div>
+    </a>
+    
+    <a class="nav-dot-container" href="&#x2F;portfolio&#x2F;turnips&#x2F;">
+      <div class="nav-dot "></div>
+    </a>
+    
+    <a class="nav-dot-container" href="&#x2F;portfolio&#x2F;stonehenge&#x2F;">
+      <div class="nav-dot "></div>
+    </a>
+    
+    <a class="nav-dot-container" href="&#x2F;portfolio&#x2F;mvp&#x2F;">
+      <div class="nav-dot "></div>
+    </a>
+    
+    <a class="nav-dot-container" href="&#x2F;portfolio&#x2F;acnh&#x2F;">
+      <div class="nav-dot "></div>
+    </a>
+    
+    <a class="nav-dot-container" href="&#x2F;portfolio&#x2F;jw&#x2F;">
+      <div class="nav-dot "></div>
+    </a>
+    
+    <a class="nav-dot-container" href="&#x2F;portfolio&#x2F;cities&#x2F;">
+      <div class="nav-dot "></div>
+    </a>
+    
+    <a class="nav-dot-container" href="&#x2F;portfolio&#x2F;watercolour&#x2F;">
+      <div class="nav-dot "></div>
+    </a>
+    
+    <a class="nav-dot-container" href="&#x2F;portfolio&#x2F;idliketogohome&#x2F;">
+      <div class="nav-dot "></div>
+    </a>
+    
+    <a class="nav-dot-container" href="&#x2F;portfolio&#x2F;tabletop&#x2F;">
+      <div class="nav-dot "></div>
+    </a>
+    
+    <a class="nav-dot-container" href="&#x2F;portfolio&#x2F;raytracer&#x2F;">
+      <div class="nav-dot "></div>
+    </a>
+    
+    <a class="nav-dot-container" href="&#x2F;portfolio&#x2F;clock&#x2F;">
+      <div class="nav-dot "></div>
+    </a>
+    
+    <a class="nav-dot-container" href="&#x2F;portfolio&#x2F;azucena&#x2F;">
+      <div class="nav-dot "></div>
+    </a>
+    
+    <a class="nav-dot-container" href="&#x2F;portfolio&#x2F;lens-vr&#x2F;">
+      <div class="nav-dot "></div>
+    </a>
+    
+    <a class="nav-dot-container" href="&#x2F;portfolio&#x2F;pba&#x2F;">
+      <div class="nav-dot this"></div>
+    </a>
+    
+    <a class="nav-dot-container" href="&#x2F;portfolio&#x2F;mv&#x2F;">
+      <div class="nav-dot "></div>
+    </a>
+    
+    <a class="nav-dot-container" href="&#x2F;portfolio&#x2F;pearl&#x2F;">
+      <div class="nav-dot "></div>
+    </a>
+    
+  </div>
+  <div class="p-e-layout-spacer-above-title"></div>
+  
+<div class="p-e-header">
+  <div class="p-e-header-tags-list">
+    
+    <div class="tag">physics</div>
+    
+    <div class="tag">C++</div>
+    
+  </div>
+  <h1 class="p-e-header-title">Some physics-based animations with particles and rigid bodies</h1>
+</div>
+
+  <div class="p-e-layout-spacer-below-title"></div>
+  <div class="p-e-content" date=" December 2017">
+    <p>This is a set of physics-based animations I made at university in C++.</p>
+<div class="p-e-article-button-container">
+    
+    
+    
+    
+    
+    <a class="p-e-article-button" href="https:&#x2F;&#x2F;github.com&#x2F;marcomoroni&#x2F;set09119">Source code</a>
+    
+</div>
+<h2 id="flag">Flag</h2>
+<p>The particles are connected by springs and there's an isotropic wind applied to the the triangulated cloth (not to each individual particle).</p>
+<img class=" can-toggle-full-width cursor-interactable stretch  " src=flag.gif>
+<h2 id="point-gravity">Point gravity</h2>
+<p>A group of particles affected by two points of gravity.</p>
+<img class=" can-toggle-full-width cursor-interactable stretch  " src=point.gif>
+<h2 id="newton-s-gravity-between-any-two-bodies">Newton's gravity between any two bodies</h2>
+<p>While the previous simulation uses an approximate gravitational formula, this one uses Newton's law of gravity: every two particles with mass are affected by each other. To be able to see such interactions I made them stick together once they get very close.</p>
+<p>The lighter particle has a higher mass.</p>
+<img class=" can-toggle-full-width cursor-interactable stretch  " src=newton.gif>
+<h2 id="super-mario-galaxy-s-gravity"><em>Super Mario Galaxy</em>'s gravity</h2>
+<p>In <em>Super Mario Galaxy</em> the player is able to walk in planetoids of any shape and size. This is possible because bodies are affected by the gravity of only one planetoid at once and the gravity direction is the inverse of the normal of (usually) the closest surface.</p>
+<p>I applied this principle to particles in box-shaped planetoids. The gravity direction is the normalised vector from the particle to a point <em>U</em>, where <em>U</em> is the point on — or in — the planetoid closest to the particle.</p>
+<img class=" can-toggle-full-width cursor-interactable stretch  " src=smg.gif>
+<h2 id="rigidbody-obb">RigidBody (OBB)</h2>
+<p>A rigidbody with the shape of a box (OBB) colliding with a plane.</p>
+<img class=" can-toggle-full-width cursor-interactable stretch  " src=cube.gif>
+<h2 id="collisions-between-obbs">Collisions between OBBs</h2>
+<p>Two OBBs colliding with each other.</p>
+<img class=" can-toggle-full-width cursor-interactable stretch  " src=domino.gif>
+
+  </div>
+  <script>
+    // Add the date to the first `p`.
+    // This script is inside the html because it needs to be executed before the document
+    // is rendered for the first time.
+    const pEContentEl = document.getElementsByClassName('p-e-content')[0];
+    const firstPEl = pEContentEl.querySelector('p');
+    if (firstPEl != null) {
+      firstPEl.innerHTML = '<span class="date-divider">&#92;&#92;&#92;</span>' + firstPEl.innerHTML;
+      firstPEl.prepend(pEContentEl.getAttribute('date'));
+    }
+  </script>
+</div>
+<div class="nav">
+  <div><a class="nav-button" href="&#x2F;portfolio">
+      <div class="nav-button-text">Home</div>
+    </a></div>
+  
+  <div><a class="nav-button with-icon" href="&#x2F;portfolio&#x2F;mv&#x2F;">
+      <div class="nav-button-text">Next</div>
+      <div class="nav-button-icon">
+<svg class="right-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <path fill="#AB7C94" d="M 21.1875 9.28125 L 19.78125 10.71875 L 24.0625 15 L 4 15 L 4 17 L 24.0625 17 L 19.78125 21.28125 L 21.1875 22.71875 L 27.90625 16 Z"></path>
+</svg>
+</div>
+    </a></div>
+  
+</div>
+
+  </div>
+</body>
+
+</html>

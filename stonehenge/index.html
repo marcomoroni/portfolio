@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, maximum-scale=1, minimum-scale=1">
+  <link rel="icon" href="https://github.com/marcomoroni.png?size=16">
+  <link rel="preload" href="&#x2F;portfolio/assets/fonts/ReadexPro.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="preload" href="&#x2F;portfolio/assets/fonts/OverpassMono-Regular.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="preload" href="&#x2F;portfolio/assets/fonts/OverpassMono-SemiBold.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="&#x2F;portfolio/global.css">
+  <script src="&#x2F;portfolio/script.js"></script>
+  <title>Marco Moroni</title>
+</head>
+
+<body>
+  <div class="cursor hidden">
+    <div class="cursor-icon"></div>
+  </div>
+  <script>
+    const cursor = document.getElementsByClassName('cursor')[0];
+    window.addEventListener('mousemove', (e) => {
+      cursor.classList.remove('hidden');
+      cursor.classList.add('visible');
+      cursor.style.transform = `translate(${e.clientX}px, ${e.clientY}px)`;
+    });
+  </script>
+  <div class="container">
+    
+<a class="home-button" href="&#x2F;portfolio" title="Home"></a>
+<div class="p-e-layout">
+  <div class="nav-dots-container">
+    
+    
+    <a class="nav-dot-container" href="&#x2F;portfolio&#x2F;mxt-website&#x2F;">
+      <div class="nav-dot "></div>
+    </a>
+    
+    <a class="nav-dot-container" href="&#x2F;portfolio&#x2F;turnips&#x2F;">
+      <div class="nav-dot "></div>
+    </a>
+    
+    <a class="nav-dot-container" href="&#x2F;portfolio&#x2F;stonehenge&#x2F;">
+      <div class="nav-dot this"></div>
+    </a>
+    
+    <a class="nav-dot-container" href="&#x2F;portfolio&#x2F;mvp&#x2F;">
+      <div class="nav-dot "></div>
+    </a>
+    
+    <a class="nav-dot-container" href="&#x2F;portfolio&#x2F;acnh&#x2F;">
+      <div class="nav-dot "></div>
+    </a>
+    
+    <a class="nav-dot-container" href="&#x2F;portfolio&#x2F;jw&#x2F;">
+      <div class="nav-dot "></div>
+    </a>
+    
+    <a class="nav-dot-container" href="&#x2F;portfolio&#x2F;cities&#x2F;">
+      <div class="nav-dot "></div>
+    </a>
+    
+    <a class="nav-dot-container" href="&#x2F;portfolio&#x2F;watercolour&#x2F;">
+      <div class="nav-dot "></div>
+    </a>
+    
+    <a class="nav-dot-container" href="&#x2F;portfolio&#x2F;idliketogohome&#x2F;">
+      <div class="nav-dot "></div>
+    </a>
+    
+    <a class="nav-dot-container" href="&#x2F;portfolio&#x2F;tabletop&#x2F;">
+      <div class="nav-dot "></div>
+    </a>
+    
+    <a class="nav-dot-container" href="&#x2F;portfolio&#x2F;raytracer&#x2F;">
+      <div class="nav-dot "></div>
+    </a>
+    
+    <a class="nav-dot-container" href="&#x2F;portfolio&#x2F;clock&#x2F;">
+      <div class="nav-dot "></div>
+    </a>
+    
+    <a class="nav-dot-container" href="&#x2F;portfolio&#x2F;azucena&#x2F;">
+      <div class="nav-dot "></div>
+    </a>
+    
+    <a class="nav-dot-container" href="&#x2F;portfolio&#x2F;lens-vr&#x2F;">
+      <div class="nav-dot "></div>
+    </a>
+    
+    <a class="nav-dot-container" href="&#x2F;portfolio&#x2F;pba&#x2F;">
+      <div class="nav-dot "></div>
+    </a>
+    
+    <a class="nav-dot-container" href="&#x2F;portfolio&#x2F;mv&#x2F;">
+      <div class="nav-dot "></div>
+    </a>
+    
+    <a class="nav-dot-container" href="&#x2F;portfolio&#x2F;pearl&#x2F;">
+      <div class="nav-dot "></div>
+    </a>
+    
+  </div>
+  <div class="p-e-layout-spacer-above-title"></div>
+  
+<div class="p-e-header">
+  <div class="p-e-header-tags-list">
+    
+    <div class="tag">XR</div>
+    
+    <div class="tag">UX</div>
+    
+    <div class="tag">UI</div>
+    
+    <div class="tag">Unreal Engine</div>
+    
+    <div class="tag">Shaders</div>
+    
+  </div>
+  <h1 class="p-e-header-title">What if there were no cars passing by Stonehenge?</h1>
+</div>
+
+  <div class="p-e-layout-spacer-below-title"></div>
+  <div class="p-e-content" date=" January 2023">
+    <!-- Videos are stored with git lfs so the `src` is a bit weird. -->
+<video class="full-width" controls>
+    <source src=https://media.githubusercontent.com/media/marcomoroni/portfolio/main/content&#x2F;2023-01-01-stonehenge&#x2F;A303_VR.mp4 type="video/mp4">
+</video>
+<p>The largest project I worked on while at MXT was a simulation of what the area around Stonehenge would look like if cars would not be driving close by. <a href="https://nationalhighways.co.uk/">National Highways</a> is planning to build an underground tunnel (A303) and our job was to show the striking difference between the present and a future with this new hidden highway. This is a VR experience for persons that may have no experience with VR at all.</p>
+<p>The simulation uses real-world data to build realistic traffic and noise that would come with it, before and after the tunnel. We decided to use Unreal Engine even though none of us had experience with it.</p>
+<p>The UI has been carefully designed to fit two seemingly contradictory gameplay flows: a guided tour and free roaming. Despite the challenge, the UI has always been praised during our user testings.</p>
+<p>UX was fully on me, from design to the UI implementation. (In this case, that means the whole gameplay.) What would a user with potentially no computer skills see once the headset is on?</p>
+<h2 id="user-experience">User experience</h2>
+<p>Much has changed since the initial mock-ups but some cardinal ideas persisted: your left hand would function as a tablet-like interface, while the right as a laser to point and select interactive elements; keep diegetic UI to a minimum; the user should never feel lost or confused on what to do next; have as few explicit tutorials as possible.</p>
+<img class=" can-toggle-full-width cursor-interactable   " src=a303_mockup_lh.png>
+<img class=" can-toggle-full-width cursor-interactable   " src=a303_mockup_minimap.png>
+<img class=" can-toggle-full-width cursor-interactable   " src=a303_mockup_narration.png>
+<p>There were so many details I had to consider. The following are just a few.</p>
+<p>I wanted the UI to be fully unlit (not affected by the scene's light) because it should not feel part of the environment and it makes it more readable. The virtual hands should be unlit too, but because they're very detailed they'd look like an unshaped blob if they were rendered with a solid colour. To fix this I've made a light Fresnel effect.</p>
+<p>The guided tour is delivered via recorded voiceovers and I made sure that the script did not mention UI mechanics. This allows for more immersion, clear separation of UI from the guided tour itself, future proofing in case the UI changes, and most importantly it leaves all teachings to the UI itself, which is not ephemeral like a spoken instruction.</p>
+<p>The UI never mentions the name of the buttons ('A', 'B', right stick, etc.) and it uses illustrations instead.</p>
+<p>The user can experience the full guided tour just by using the 'Next' button, which is the most prominent UI element. Everything else is optional.</p>
+<h2 id="implementation">Implementation</h2>
+<p>First time using Unreal Engine — exciting!</p>
+<p>Implementation was for the most part what you would expect from a gameplay programmer, except for a few interesting aspects.</p>
+<p>UI needs <em>shapes</em>, like rectangles with rounded corners. I made a lot of shader-based shapes using a technique called raymarching distance field. This method makes shapes that are much more visually pleasing than sprites, because no matter how close you are, edges are always crisp and you won't see any pixel. And it's easier to edit colours and sizes at runtime.</p>
+<p>As more and more features were added we reached a point where orchestrating the various parts via classic events became quite difficult. I decided to centralize most logic in one place, using an architecture similar to Elm. Elm if fully functional, so it's not feasible to implement something identical in Unreal, but I kept what allowed to reduce errors and help logic readability: Actors should not interact with each other but send 'messages' to a Manager; this Manager then changes the various other Actors; in particular, it changes them so they would never send invalid messages.</p>
+<h2 id="desktop-version">Desktop version</h2>
+<p>Later on we were asked to make a desktop version. The time allocated for this was much more limited but all functionalities are there.</p>
+<!-- Videos are stored with git lfs so the `src` is a bit weird. -->
+<video class="full-width" controls>
+    <source src=https://media.githubusercontent.com/media/marcomoroni/portfolio/main/content&#x2F;2023-01-01-stonehenge&#x2F;A303_desktop.mp4 type="video/mp4">
+</video><h2 id="an-idea-i-had-too-late">An idea I had too late</h2>
+<p>Whenever possible, I avoid explicit tutorials, especially text based because those require too much user attention. Unfortunately, I didn't find a satisfactory way to be fully clear of them in VR, but the final implementation still has a simple, gradual and non-obstructive onboarding to the different gameplay features. One aspect that went through many iterations was how to have the user discover the controls on the two hands (raise them to the correct position so that they can be seen — yes, for many users it's not obvious to look at their hands) and teach how to use them (move the laser to point to an element and select it).</p>
+<p>Too late in development I came up with an idea that I'd love to explore further: how about a <em>mirror</em>? The user will immediately understand that the avatar in front of him or her is mimicking his or her movements. What's that shiny thing on the mirrored hand? Better have a look at my own hand, there must be something interesting there! This solution seems very promising — it requires very low user attention and no text.</p>
+
+  </div>
+  <script>
+    // Add the date to the first `p`.
+    // This script is inside the html because it needs to be executed before the document
+    // is rendered for the first time.
+    const pEContentEl = document.getElementsByClassName('p-e-content')[0];
+    const firstPEl = pEContentEl.querySelector('p');
+    if (firstPEl != null) {
+      firstPEl.innerHTML = '<span class="date-divider">&#92;&#92;&#92;</span>' + firstPEl.innerHTML;
+      firstPEl.prepend(pEContentEl.getAttribute('date'));
+    }
+  </script>
+</div>
+<div class="nav">
+  <div><a class="nav-button" href="&#x2F;portfolio">
+      <div class="nav-button-text">Home</div>
+    </a></div>
+  
+  <div><a class="nav-button with-icon" href="&#x2F;portfolio&#x2F;mvp&#x2F;">
+      <div class="nav-button-text">Next</div>
+      <div class="nav-button-icon">
+<svg class="right-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <path fill="#AB7C94" d="M 21.1875 9.28125 L 19.78125 10.71875 L 24.0625 15 L 4 15 L 4 17 L 24.0625 17 L 19.78125 21.28125 L 21.1875 22.71875 L 27.90625 16 Z"></path>
+</svg>
+</div>
+    </a></div>
+  
+</div>
+
+  </div>
+</body>
+
+</html>

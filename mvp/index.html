@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, maximum-scale=1, minimum-scale=1">
+  <link rel="icon" href="https://github.com/marcomoroni.png?size=16">
+  <link rel="preload" href="&#x2F;portfolio/assets/fonts/ReadexPro.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="preload" href="&#x2F;portfolio/assets/fonts/OverpassMono-Regular.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="preload" href="&#x2F;portfolio/assets/fonts/OverpassMono-SemiBold.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="&#x2F;portfolio/global.css">
+  <script src="&#x2F;portfolio/script.js"></script>
+  <title>Marco Moroni</title>
+</head>
+
+<body>
+  <div class="cursor hidden">
+    <div class="cursor-icon"></div>
+  </div>
+  <script>
+    const cursor = document.getElementsByClassName('cursor')[0];
+    window.addEventListener('mousemove', (e) => {
+      cursor.classList.remove('hidden');
+      cursor.classList.add('visible');
+      cursor.style.transform = `translate(${e.clientX}px, ${e.clientY}px)`;
+    });
+  </script>
+  <div class="container">
+    
+<a class="home-button" href="&#x2F;portfolio" title="Home"></a>
+<div class="p-e-layout">
+  <div class="nav-dots-container">
+    
+    
+    <a class="nav-dot-container" href="&#x2F;portfolio&#x2F;mxt-website&#x2F;">
+      <div class="nav-dot "></div>
+    </a>
+    
+    <a class="nav-dot-container" href="&#x2F;portfolio&#x2F;turnips&#x2F;">
+      <div class="nav-dot "></div>
+    </a>
+    
+    <a class="nav-dot-container" href="&#x2F;portfolio&#x2F;stonehenge&#x2F;">
+      <div class="nav-dot "></div>
+    </a>
+    
+    <a class="nav-dot-container" href="&#x2F;portfolio&#x2F;mvp&#x2F;">
+      <div class="nav-dot this"></div>
+    </a>
+    
+    <a class="nav-dot-container" href="&#x2F;portfolio&#x2F;acnh&#x2F;">
+      <div class="nav-dot "></div>
+    </a>
+    
+    <a class="nav-dot-container" href="&#x2F;portfolio&#x2F;jw&#x2F;">
+      <div class="nav-dot "></div>
+    </a>
+    
+    <a class="nav-dot-container" href="&#x2F;portfolio&#x2F;cities&#x2F;">
+      <div class="nav-dot "></div>
+    </a>
+    
+    <a class="nav-dot-container" href="&#x2F;portfolio&#x2F;watercolour&#x2F;">
+      <div class="nav-dot "></div>
+    </a>
+    
+    <a class="nav-dot-container" href="&#x2F;portfolio&#x2F;idliketogohome&#x2F;">
+      <div class="nav-dot "></div>
+    </a>
+    
+    <a class="nav-dot-container" href="&#x2F;portfolio&#x2F;tabletop&#x2F;">
+      <div class="nav-dot "></div>
+    </a>
+    
+    <a class="nav-dot-container" href="&#x2F;portfolio&#x2F;raytracer&#x2F;">
+      <div class="nav-dot "></div>
+    </a>
+    
+    <a class="nav-dot-container" href="&#x2F;portfolio&#x2F;clock&#x2F;">
+      <div class="nav-dot "></div>
+    </a>
+    
+    <a class="nav-dot-container" href="&#x2F;portfolio&#x2F;azucena&#x2F;">
+      <div class="nav-dot "></div>
+    </a>
+    
+    <a class="nav-dot-container" href="&#x2F;portfolio&#x2F;lens-vr&#x2F;">
+      <div class="nav-dot "></div>
+    </a>
+    
+    <a class="nav-dot-container" href="&#x2F;portfolio&#x2F;pba&#x2F;">
+      <div class="nav-dot "></div>
+    </a>
+    
+    <a class="nav-dot-container" href="&#x2F;portfolio&#x2F;mv&#x2F;">
+      <div class="nav-dot "></div>
+    </a>
+    
+    <a class="nav-dot-container" href="&#x2F;portfolio&#x2F;pearl&#x2F;">
+      <div class="nav-dot "></div>
+    </a>
+    
+  </div>
+  <div class="p-e-layout-spacer-above-title"></div>
+  
+<div class="p-e-header">
+  <div class="p-e-header-tags-list">
+    
+    <div class="tag">UX</div>
+    
+    <div class="tag">UI</div>
+    
+    <div class="tag">Unity</div>
+    
+    <div class="tag">C#</div>
+    
+  </div>
+  <h1 class="p-e-header-title">A driving simulator for training traffic officers</h1>
+</div>
+
+  <div class="p-e-layout-spacer-below-title"></div>
+  <div class="p-e-content" date=" July 2022">
+    <p>This is an app I worked on while at MXT. It is to be used by two users: a traffic officer trainee and an instructor. The former drives a VR car while the latter manipulates the virtual environment to create custom scenarios with car accidents, high traffic, etc.</p>
+<img class="    " src=users.jpg>
+<p>The design process covered hardware, software, and the all-around user experience. Here I'll focus on key parts of the mock-ups I created for the instructor.</p>
+<p>Once connected, this is the dashboard the instructor is presented with:</p>
+<img class="full-width can-toggle-full-width cursor-interactable   " src=instructor_dashboard_frame.png>
+<p>This is the semantic structure:</p>
+<img class=" can-toggle-full-width cursor-interactable   " src=semantic_structure.png>
+<p>The following are a few notes on the design.</p>
+<p>At a glance, your attention is not drawn anywhere (except perhaps the scene view): there are no primary actions and for this reason no buttons or other elements have a prominent style.</p>
+<p>I don't use an accent colour, but contrast instead. I'm not fond of accent colours in unbranded UIs — this makes designs more challenging but arguably more aesthetically pleasing.</p>
+<p>The typeface is Inter, which is pretty standard nowadays and it works very well.</p>
+<p>All icons are custom made.</p>
+<p>It's minimalist but ergonomic.</p>
+<p>There's much though behind the 'Change map' button: it also serves as way to start, end and reset a 'session'.</p>
+<p>I'm still a programmer! This means I know the tools and the limitations available, and the mock-ups are always made to be achievable.</p>
+<img class=" can-toggle-full-width cursor-interactable   " src=edit_gantry.png>
+<img class=" can-toggle-full-width cursor-interactable   " src=second_monitor.png>
+<img class=" can-toggle-full-width cursor-interactable   " src=details_add_button.png>
+<img class=" can-toggle-full-width cursor-interactable   " src=details_mini_map.png>
+<img class=" can-toggle-full-width cursor-interactable   " src=details_road_rendering.png>
+<p>I initially implemented the UI in Unity with UI Toolkit, which is like HTML and CSS adapted for use in a game engine. However, after many missing features and bugs I decided to switch to <a href="https://novaui.io/">Nova</a> and it has been a pleasure to use.</p>
+
+  </div>
+  <script>
+    // Add the date to the first `p`.
+    // This script is inside the html because it needs to be executed before the document
+    // is rendered for the first time.
+    const pEContentEl = document.getElementsByClassName('p-e-content')[0];
+    const firstPEl = pEContentEl.querySelector('p');
+    if (firstPEl != null) {
+      firstPEl.innerHTML = '<span class="date-divider">&#92;&#92;&#92;</span>' + firstPEl.innerHTML;
+      firstPEl.prepend(pEContentEl.getAttribute('date'));
+    }
+  </script>
+</div>
+<div class="nav">
+  <div><a class="nav-button" href="&#x2F;portfolio">
+      <div class="nav-button-text">Home</div>
+    </a></div>
+  
+  <div><a class="nav-button with-icon" href="&#x2F;portfolio&#x2F;acnh&#x2F;">
+      <div class="nav-button-text">Next</div>
+      <div class="nav-button-icon">
+<svg class="right-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <path fill="#AB7C94" d="M 21.1875 9.28125 L 19.78125 10.71875 L 24.0625 15 L 4 15 L 4 17 L 24.0625 17 L 19.78125 21.28125 L 21.1875 22.71875 L 27.90625 16 Z"></path>
+</svg>
+</div>
+    </a></div>
+  
+</div>
+
+  </div>
+</body>
+
+</html>
