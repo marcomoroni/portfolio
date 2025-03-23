@@ -46,4 +46,4 @@ I'm still a programmer! This means I know the tools and the limitations availabl
 
 {{ image(src="details_road_rendering.png", can_toggle_full_width=true) }}
 
-I initially implemented the UI in Unity with UI Toolkit., which is like HTML and CSS adapted for use in a game engine. However, after many missing features and bugs I decided to switch to [Nova](https://novaui.io/) and it has been a pleasure to use.
+I initially implemented the UI in Unity with UI Toolkit, which is like HTML and CSS adapted for use in a game engine. However, after many missing features and bugs I decided to switch to [Nova](https://novaui.io/) and it has been a pleasure to use.
