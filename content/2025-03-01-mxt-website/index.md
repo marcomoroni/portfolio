@@ -4,7 +4,7 @@ slug = "mxt-website"
 template = "portfolio-entry.html"
 [extra]
 tags = ["Web", "Svelte", "Three.js", "Shaders"]
-opt_preview_img = ["t2.png", "inverted", 10, 1]
+opt_preview_img = ["screenshot.png", "inverted", 8, 1]
 +++
 
 {{ video(src="content/2025-03-01-mxt-website/mxt-website.mp4", full_width=true) }}
