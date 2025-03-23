@@ -9,7 +9,7 @@ opt_preview_img = ["post_map_high_contrast.png", "inverted", 3, 1]
 
 {{ video(src="content/2023-01-01-stonehenge/A303_VR.mp4", full_width=true) }}
 
-The largest project I worked on while at [MXT](https://mxt.co.uk/) was a simulation of what the area around Stonehenge would look like if cars would not be driving close by. [National Highways](https://nationalhighways.co.uk/) is planning to build an underground tunnel (A303) and our job was to show the striking difference between the present and a future with this new hidden highway. This is a VR experience for persons that may have no experience with VR at all.
+The largest project I worked on while at MXT was a simulation of what the area around Stonehenge would look like if cars would not be driving close by. [National Highways](https://nationalhighways.co.uk/) is planning to build an underground tunnel (A303) and our job was to show the striking difference between the present and a future with this new hidden highway. This is a VR experience for persons that may have no experience with VR at all.
 
 The simulation uses real-world data to build realistic traffic and noise that would come with it, before and after the tunnel. We decided to use Unreal Engine even though none of us had experience with it.
 
@@ -57,4 +57,4 @@ Later on we were asked to make a desktop version. The time allocated for this wa
 
 Whenever possible, I avoid explicit tutorials, especially text based because those require too much user attention. Unfortunately, I didn't find a satisfactory way to be fully clear of them in VR, but the final implementation still has a simple, gradual and non-obstructive onboarding to the different gameplay features. One aspect that went through many iterations was how to have the user discover the controls on the two hands (raise them to the correct position so that they can be seen — yes, for many users it's not obvious to look at their hands) and teach how to use them (move the laser to point to an element and select it).
 
-Too late in development I came up with an idea that I'd love to explore further: how about a *mirror*? The user will immediately understand that the avatar in front of him or her is mimicking his or her movements. What's that shiny thing on the mirrored hand? Better have a look at my own hand, there must be something interesting there! This solution seems very promising — it requires very low user attention and no text.
+Too late in development I came up with an idea that I'd love to explore further: how about a _mirror_? The user will immediately understand that the avatar in front of him or her is mimicking his or her movements. What's that shiny thing on the mirrored hand? Better have a look at my own hand, there must be something interesting there! This solution seems very promising — it requires very low user attention and no text.

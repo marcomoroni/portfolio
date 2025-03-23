@@ -6,7 +6,7 @@ template = "portfolio-entry.html"
 tags = ["UX", "UI", "Unity", "C#"]
 +++
 
-This is an app I worked on while at [MXT](https://mxt.co.uk/). It is to be used by two users: a traffic officer trainee and an instructor. The former drives a VR car while the latter manipulates the virtual environment to create custom scenarios with car accidents, high traffic, etc.
+This is an app I worked on while at MXT. It is to be used by two users: a traffic officer trainee and an instructor. The former drives a VR car while the latter manipulates the virtual environment to create custom scenarios with car accidents, high traffic, etc.
 
 {{ image(src="users.jpg") }}
 
